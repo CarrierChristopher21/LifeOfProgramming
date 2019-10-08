@@ -1,0 +1,16 @@
+﻿@model Northwind.Models.Shipper
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Shipper Filter Selection Output
+-->
+
+@{
+    ViewBag.Title = "By Shipper";
+}
+
+	<h2>By Shipper</h2>
+	@foreach(var fileshipper in ViewBag.Shipper)
+	{
+		@Html.Raw(fileshipper.ToString());
+
+	}

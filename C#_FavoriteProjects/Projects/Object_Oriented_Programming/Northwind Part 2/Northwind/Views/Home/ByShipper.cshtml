@@ -1,0 +1,12 @@
+﻿@model Northwind.Models.Shipper
+
+@{
+    ViewBag.Title = "By Shipper";
+}
+
+	<h2>By Shipper</h2>
+	@foreach(var fileshipper in ViewBag.Shipper)
+	{
+		@Html.Raw(fileshipper.ToString());
+
+	}

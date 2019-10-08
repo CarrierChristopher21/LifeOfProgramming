@@ -1,0 +1,36 @@
+﻿@model Northwind.Models.Product
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Product Filter Output
+-->
+
+@{
+    ViewBag.Title = "Product Filter";
+	<link type="text/css" rel="stylesheet" href="~/Content/style.css" />
+}
+
+	<h2>Product Filter</h2>
+	<!--	By Product		-->
+	<form action="~/Home/ByProduct">
+		<fieldset>
+			<legend>Product Price Range</legend>
+
+			<label>Product Price Min:</label>	
+			<input type="text" name="pricemin" class="product-min" id="product_min" placeholder="Product Minimum" min="0" 
+				required="required" /><br />
+
+			<label>Product Price Max:</label>	
+			<input type="text" name="pricemax" class="product-max" id="product_max" placeholder="Product Maximum" 
+				required="required"/><br />
+			<div class="button-price">
+				<input type="submit" value="Submit" class="submit-price" />
+				<input type="reset" value="Reset" class="reset-price" /><br />
+			</div>
+
+			
+		</fieldset>
+
+
+	</form><br />
+
+

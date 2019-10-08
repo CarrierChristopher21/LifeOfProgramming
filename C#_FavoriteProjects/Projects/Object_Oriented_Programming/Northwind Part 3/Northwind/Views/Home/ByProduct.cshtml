@@ -1,0 +1,16 @@
+﻿@model Northwind.Models.Product
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Product Filter Selection Output
+-->
+
+@{
+    ViewBag.Title = "By Product";
+}
+
+	<h2>ByProduct</h2>
+	@foreach(var fileproduct in ViewBag.Product)
+	{
+		@Html.Raw(fileproduct.ToString());<br />
+
+	}

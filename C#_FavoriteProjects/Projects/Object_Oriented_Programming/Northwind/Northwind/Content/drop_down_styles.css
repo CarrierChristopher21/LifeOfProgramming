@@ -1,0 +1,122 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Drop Down! */
+
+/* div */
+#drop-down * { 
+	list-style: none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+ 
+}
+
+#drop-down {
+	/*border:0px solid black;*/
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	
+ }
+ 
+#drop-down a {
+	display:block;
+ 
+ }
+
+ /* Drop right listing */
+#drop-down li {
+	float:left;
+	position:relative;
+	padding:0 .5em 0 0;
+	margin-top:5px;
+	margin-bottom:5px;	
+	margin-right:.5px;	/* Controls the spacing between each drop down word */
+	
+ }
+ 
+#drop-down li:first-child {
+	border-left:none;
+	
+ }
+
+ /* drop right listing & unlisted */
+#drop-down li ul {	
+	position:relative;
+	display:none;
+	width:10em;	/* Controls the width of the drop down */
+	left:-25px;
+ 
+ }
+
+/* Drop down right unlisted */
+#drop-down ul{
+	margin-bottom:5px;
+	margin-right:5px;
+
+ }
+
+#drop-down ul:after {
+ display: block;
+ /*content: ""; */
+ /*clear: both; */
+ 
+ }
+
+#drop-down ul li {
+ float: left; /* Important Controls whether the links go verticle or horizontal */
+ font-size:15px;
+ }
+  
+#drop-down ul li a {
+ display: block; 
+
+ }
+
+#drop-down ul li:hover {
+ display:block;
+
+ }
+
+#drop-down ul li:hover > ul {
+ display: block;
+
+ }
+
+#drop-down ul ul { /* This piece is important */
+ /*background: black;*/
+ display: none;
+ line-height:25px;
+ position: absolute;
+ padding-bottom: 10px;	/* --| */
+ padding-left: 20px;	/* --| */
+ padding-right:20px;	/* --| -- Controls the drop down padding */
+ padding-top:10px;		/* --| */
+ z-index:1;
+
+ }
+
+#drop-down ul ul li { /* Controls the Spacing for the border in the drop down */
+ float: none;  
+ border-bottom: 2px solid silver; 
+ padding-bottom:6px;
+ padding-top:3px;
+ position: relative;
+ width:100%;
+
+ }
+
+#drop-down  ul ul li a{
+ display:block;
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+

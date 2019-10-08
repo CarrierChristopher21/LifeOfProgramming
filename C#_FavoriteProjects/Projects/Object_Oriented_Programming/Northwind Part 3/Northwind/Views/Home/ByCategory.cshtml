@@ -1,0 +1,16 @@
+﻿@model Northwind.Models.Category
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Category Filter Selection Output
+-->
+
+@{
+    ViewBag.Title = "By Category";
+}
+	
+	<h2>By Category</h2>
+	@foreach(var filecategory in ViewBag.Categories)
+	{
+		@Html.Raw(filecategory.ToString());
+
+	}

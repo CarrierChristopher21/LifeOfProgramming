@@ -1,0 +1,19 @@
+﻿@model Northwind.Models.Shipper
+
+@{
+    ViewBag.Title = "Shipper File";
+}
+
+	<head>
+		<title>Shipper File</title>
+
+	</head>
+
+		<!--	By Files All list -->
+		<h2>ShipperFile</h2>
+		@foreach(var sh in ViewBag.Shipper)
+		{
+			@Html.Raw(sh.ToString());
+		}
+		
+

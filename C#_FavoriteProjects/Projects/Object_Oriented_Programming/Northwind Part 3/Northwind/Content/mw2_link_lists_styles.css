@@ -1,0 +1,77 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Design Code! */
+
+/* Links & Lists */
+
+/* Default Link Code *//*
+a:link {color:white;}
+a:visited  {color:#339900;}
+a:active   {color:#FF3300;}
+a:hover {color:blue;}
+*/
+	/* ul,ol,li */
+
+ /* li external sites */
+li.mw2-external-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ text-align:left;
+ line-height:20px;
+ 
+}
+
+ /* li internal sites */
+li.mw2-internal-sites{
+ margin-top:8px;
+ margin-left:20px;
+ margin-right:8px;
+ text-align:left;
+ line-height:20px;
+
+ }
+
+ /* li my sites */
+li.mw2-my-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+
+ /* li name external sites */
+li.mw2-name-external-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+
+ /* li Sites */
+li.mw2-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+
+ /* div sites */
+
+/* Navigation Id */
+#mw2-navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+ 
+ } 
+
+ /* div external sites */
+div.mw2-external-sites{
+ text-align:center;
+ text-decoration:underline;
+}
+
+
+
+
+

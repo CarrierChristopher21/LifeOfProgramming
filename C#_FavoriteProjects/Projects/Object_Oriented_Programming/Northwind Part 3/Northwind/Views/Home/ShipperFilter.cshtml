@@ -1,0 +1,24 @@
+﻿@model Northwind.Models.Shipper
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Shipper Filter List Output
+-->
+
+@{
+    ViewBag.Title = "Shipper Filter";
+}
+
+	<h2>Shipper Filter</h2>
+	<!--	By Shipper		-->
+	<table border="1">
+		@foreach(var sh in ViewBag.Shipper)
+		{
+			<tr class="something">
+				<td>
+					<a href="ByShipper?id=@sh.ShipperId">
+						@sh.CompanyName
+					</a>
+				</td>
+			</tr>
+		}
+	</table>

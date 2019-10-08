@@ -1,0 +1,18 @@
+﻿@model Northwind.Models.Supplier
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Supplier List Output
+-->
+
+@{
+    ViewBag.Title = "Supplier File";
+}
+
+	<head>
+		<title>Supplier File</title>
+	</head>
+	<h2>Supplier File</h2>
+		@foreach(var s in ViewBag.Supplier)
+		{
+			@Html.Raw(s.ToString());
+		}

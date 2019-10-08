@@ -1,0 +1,25 @@
+﻿@model Northwind.Models.Category
+
+@{
+    ViewBag.Title = "Category Filter";
+}
+
+	<head>
+		<title>Category Index</title>
+
+	</head>
+		<!--	By Files All list -->
+		<h2>Category Filter</h2>
+		<!--	By Category		-->
+			<table border="1">
+				@foreach(var c in ViewBag.Categories)
+				{
+					<tr class="something">
+						<td>
+							<a href="ByCategory?id=@c.CategoryId">
+								@c.CategoryName
+							</a>
+						</td>
+					</tr>
+				}
+			</table>

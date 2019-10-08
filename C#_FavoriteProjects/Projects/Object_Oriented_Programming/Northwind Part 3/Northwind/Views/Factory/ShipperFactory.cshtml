@@ -1,0 +1,20 @@
+﻿@model Northwind.Models.Shipper
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Shipper Factory List Output
+-->
+
+@{
+    ViewBag.Title = "Shipper Factory";
+}
+
+<head>
+	<title>Shipper Factory</title>
+</head>
+
+	<!--	By Files All list -->
+	<h2>Shipper Factory</h2>
+	@foreach(var sh in ViewBag.Shipper)
+	{
+		@Html.Raw(sh.ToString());
+	}

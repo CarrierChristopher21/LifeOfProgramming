@@ -1,0 +1,15 @@
+﻿@model Northwind.Models.Supplier
+
+@{
+    ViewBag.Title = "Supplier File";
+}
+
+	<head>
+		<link type="text/css" rel="stylesheet" href="~/Content/style.css" />
+		<title>Supplier File</title>
+	</head>
+	<h2>Supplier File</h2>
+		@foreach(var s in ViewBag.Supplier)
+		{
+			@Html.Raw(s.ToString());
+		}

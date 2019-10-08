@@ -1,0 +1,12 @@
+﻿@model Northwind.Models.Category
+
+@{
+    ViewBag.Title = "By Category";
+}
+
+	<h2>By Category</h2>
+	@foreach(var filecategory in ViewBag.Category)
+	{
+		@Html.Raw(filecategory.ToString());
+
+	}

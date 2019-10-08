@@ -1,0 +1,16 @@
+﻿@model Northwind.Models.Category
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Category Factory List Output
+-->
+
+@{
+    ViewBag.Title = "Category Factory";
+}
+
+	<h2>Category Factory</h2>
+	<!--	By Files All list -->
+	@foreach(var fc in ViewBag.Categories)
+	{
+		@Html.Raw(fc.ToString());
+	}

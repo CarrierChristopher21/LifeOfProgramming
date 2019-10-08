@@ -1,0 +1,24 @@
+﻿@model Northwind.Models.Category
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Category Filter Output
+-->
+
+@{
+    ViewBag.Title = "Category Filter";
+}
+
+		<h2>Category Filter</h2>
+		<!--	By Category		-->
+		<table border="1">
+			@foreach(var c in ViewBag.Categories)
+			{
+				<tr class="something">
+					<td>
+						<a href="ByCategory?id=@c.CategoryId">
+							@c.CategoryName
+						</a>
+					</td>
+				</tr>
+			}
+		</table>

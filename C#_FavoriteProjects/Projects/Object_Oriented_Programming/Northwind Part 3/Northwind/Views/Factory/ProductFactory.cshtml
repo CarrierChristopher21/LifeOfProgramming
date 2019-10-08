@@ -1,0 +1,22 @@
+﻿@model Northwind.Models.Product
+<!--	Author:	Chris Carrier
+		Date:	1/15/15
+		Information:	Product Factory List Output
+-->
+
+@{
+    ViewBag.Title = "Product Factory";
+}
+
+<head>
+	<title>Product Factory</title>
+</head>
+
+	<!--	By Files All list -->
+	<h2>Product Factory</h2>
+	@foreach(var p in ViewBag.Product)
+	{
+		@Html.Raw(p.ToString());<br />
+	}
+
+
