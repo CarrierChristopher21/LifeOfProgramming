@@ -1,0 +1,7 @@
+C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\Connection\Connection\bin\Debug\Data\Northwind.accdb
+C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\Connection\Connection\bin\Debug\Connection.exe.config
+C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\Connection\Connection\bin\Debug\Connection.exe
+C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\Connection\Connection\bin\Debug\Connection.pdb
+C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\Connection\Connection\obj\Debug\Connection.exe
+C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\Connection\Connection\obj\Debug\Connection.pdb
+C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\Connection\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache

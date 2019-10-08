@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\Visual Studio Programming\Visual Studio 2010\Projects\OurBanner\bin\Release\Class Project.exe
+C:\Users\user\Desktop\Visual Studio Programming\Visual Studio 2010\Projects\OurBanner\bin\Release\Class Project.pdb
+C:\Users\user\Desktop\Visual Studio Programming\Visual Studio 2010\Projects\OurBanner\obj\x86\Release\Class Project.exe
+C:\Users\user\Desktop\Visual Studio Programming\Visual Studio 2010\Projects\OurBanner\obj\x86\Release\Class Project.pdb
