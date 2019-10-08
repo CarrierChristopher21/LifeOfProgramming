@@ -1,0 +1,4 @@
+Login Network Drive
+	\\student\user\carriect
+	asc\carriect
+	

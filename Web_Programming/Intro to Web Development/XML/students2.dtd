@@ -1,0 +1,6 @@
+<!ENTITY % StudDTD SYSTEM "students.dtd">
+%StudDTD;
+<!ENTITY F "Full Time Student">
+<!ENTITY P "Part Time Student">
+<!ENTITY SO "Scott OConnor">
+<!ENTITY JB "Jim Boardman">

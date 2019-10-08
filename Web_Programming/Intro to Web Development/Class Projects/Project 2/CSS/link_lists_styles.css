@@ -1,0 +1,117 @@
+/* This is a comment */
+/* Style Sheet for Face Shopping Site Design Code! */
+
+/* Links & Lists */
+
+/* Default Link Code */
+a:link {color:black;}
+a:visited  {color:#339900;}
+a:active   {color:#FF3300;}
+a:hover {color:blue;}
+
+/* Center */
+a.contact_us:link {color:black;}
+a.contact_us:visited{color:Magenta;}
+a.contact_us:active   {color:#FF3300;}
+a.contact_us:hover {color:red;}
+a.contact_us{
+	font:italic 16px Helvetica,Arial,sans-serif;
+
+}
+
+a.cart-nav:link{color:white;}
+a.cart-nav:visited{color:white;}
+a.cart-nav:active{color:Magenta;}
+a.cart-nav:hover{color:#FF3300;}
+
+a.cart-add:link{color:black;}
+a.cart-add:visited{color:#FF3300;}
+a.cart-add:hover {color:blue;}
+
+a.simpleCart_empty:link{color:black;}
+a.simpleCart_empty:hover{color:blue;}
+
+	/* ul,ol,li */
+
+
+ /* li external sites */
+li.cart-external-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ text-align:left;
+ line-height:20px;
+ 
+}
+
+ /* li drop external sites */
+li.cart-drop-external-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ text-align:left;
+ line-height:20px;
+ 
+}
+
+ /* li internal sites */
+li.cart-internal-sites{
+ margin-top:8px;
+ margin-left:20px;
+ margin-right:8px;
+ text-align:left;
+ line-height:20px;
+
+ }
+
+ /* li my sites */
+li.cart-my-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ position:auto;
+}
+
+/* hr */
+
+/* Main Seperation Code */
+hr.mw2-seperation{
+ width: 50%;
+ color:white;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom:20px;
+}
+
+/* Listing Seperation */
+hr.mw2-li-seperation{
+ width:70%;
+ color:white;
+ text-align:left;
+}
+
+ /* div sites */
+
+/* Navigation Id */
+#cart-navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+ 
+ } 
+ 
+ 
+ /* div external sites */
+div.external-sites{
+ text-align:center;
+ text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+

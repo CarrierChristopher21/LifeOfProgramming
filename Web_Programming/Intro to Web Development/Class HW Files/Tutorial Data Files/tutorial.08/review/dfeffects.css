@@ -1,0 +1,77 @@
+/*
+	New Perspectives on HTML and CSS
+	Tutorial 8
+	Review Assignment
+
+	Special Effects style sheet
+	Author: Chris Carrier
+	Date:   10/29/14
+	
+	Filename:         dfeffects.css
+	Supporting Files: paper.png
+
+*/
+
+nav#familyLinks{
+ -moz-box-shadow: inset rgb(0,0,0) 10px 0px 15px;
+ -webkit-box-shadow: inset rgb(0,0,0) 10px 0px 15px;
+ box-shadow: inset rgb(0,0,0) 10px 0px 15px;
+ opacity: 0.6;
+
+}
+
+nav#familyLinks img{
+ -moz-box-shadow: rgb(0,0,0) 10px 10px 15px;
+ -webkit-box-shadow: rgb(0,0,0) 10px 10px 15px;
+ box-shadow: rgb(0,0,0) 10px 10px 15px;
+ opacity: 0.6;
+ 
+}
+
+nav#familyLinks img:hover{
+ -o-transform: rotate(-5deg);
+ -moz-transform: rotate (-5deg);
+ -webkit-transform: rotate (-5deg);
+ -ms-transform: rotate (-5deg);
+ transform: rotate (-5deg);
+ opacity: 1.0;
+ 
+}
+
+article{
+ background: -o-linear-gradient(left ,rgb(151,151,151) , rgb(231,231,231)); 
+ background: -ms-linear-gradient(left ,rgb(151,151,151) , rgb(231,231,231)); 
+ background: -moz-linear-gradient(left ,rgb(151,151,151) , rgb(231,231,231)); 
+ background: -webkit-linear-gradient(left ,rgb(151,151,151) , rgb(231,231,231)); 
+ background: linear-gradient(left ,rgb(151,151,151) , rgb(231,231,231));
+
+}
+
+h1{
+ text-shadow: black 1px 1px 0px,
+			  rgba(30, 57, 0) 5px 5px 10px;
+ opacity: 0.8;
+ 
+}
+
+article img{
+ width: 10px;
+ 
+ -o-border-image: url("paper.png") 70px repeat;
+ -moz-border-image: url("paper.png") 70px repeat;
+ -webkit-border-image: url("paper.png") 70px repeat;
+ border-image: url("paper.png") 70px repeat;
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+

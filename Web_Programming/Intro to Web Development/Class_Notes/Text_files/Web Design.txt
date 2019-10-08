@@ -1,0 +1,115 @@
+Web Design
+	- Design for your intended audience
+			- "CONTENT IS KING" 
+	- Website Organization
+		- Hierarchial
+			- most common
+			- pitfalls
+				- too shallow (chunking)
+				- too deep (3 click Rule)
+		- linear
+			- Ideal for tutorial sites
+		- random (web model)
+	- Principles
+		- Repetition
+			- Repeat the site message
+			- Repeat visual elements
+			- Need more reference to content w/o overdoing it
+		- Contrast
+			- Adds visual excitement
+			- Draws attention
+		- Proximity
+			- Group related items
+			- Avoid dead space
+			- Put related items together
+		- Alignment
+			- Align to create visual unity
+			- 
+	- Design to Provide Accessibility
+		- The right thing to do
+		- Benefits search engine listing
+		
+		- Perceivable
+		- Operable
+		- Understandable
+		- Robust
+		
+	- Writing for the WEB
+		- Organize your content
+		- Text in hyperlinks
+		- Reading Level
+		- use common fonts
+		- Font size and weight
+		- Line height
+		- Font color contrast
+	- Spelling and grammar
+	
+	- Using Colors
+		- Choosing colors
+		- Colors and Accessibility
+		- Colors and your target audience
+	
+	- Use of graphics and multimedia
+		- Size Matters
+		- Antialias text in graphics
+		- Use only necessary media
+		- Provide alternate
+	- Navigation Design
+		- Navigation Bars
+		- Bread crumbing
+		- use graphics for navigation
+		- skip repetitive navigation
+		- dynamic navigation 
+	- Layout Design
+		- ICE 
+		- JELLO
+		
+		- Above the Fold
+		
+	- ui-patterns.common
+	
+	- 10 Guidelines
+		- Visibility
+		- Memory Load
+		- Feedback
+		- Accessibility
+		- Orientation
+		- Errors
+		- Satisfaction
+		- Legibility
+		- Language
+		- Engaging Visual Design
+		
+	- 7 Best Practices in Web Form Design
+		
+		- 1.) Use Directional Cues
+			- Use images
+			- Use arrows
+		- 2.) Use Contrast
+			- Colors
+			- Brightness
+			- Object Limitation
+		- 3.) Make the CIA stand out
+			- I want
+			- Makes slightly larger
+		- 4.) Make your form title to understand
+		- 5.) Make your for easy to use	
+			- Use specific labels
+			- Provide shortcuts
+			- Provide examples
+			- Limit fields
+			- Identify what is mandatory
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

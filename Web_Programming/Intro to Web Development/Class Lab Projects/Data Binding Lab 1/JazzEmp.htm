@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Enke's Jazz Warehouse</title>
+		<link rel="stylesheet" type="text/css" href="format.css">
+	</head>
+
+	<body>
+		<xml id="Page_Info" src="EJWInfo.xml"></xml>
+		<xml id="Staff_Info" src="JazzEmp.xml"></xml>
+		<div id="Page_Title" datasrc="#Page_Info" datafld="Title"></div><!-- Page Title -->
+		<div id="Page_Subtitle" datasrc="#Page_Info" datafld="Subtitle"></div><!-- Page Subtitle -->
+		<div id="Page_Text" datasrc="#Page_Info" datafld="Purpose"></div><!-- A paragraph stating the purpose of the page. -->
+		<div id="Page_Author">For more information, contact: 
+			<a datasrc="#Page_Info" datafld="Author_Email">
+				<span datasrc="#Page_Info" datafld="Author">Page Author</span>
+			</a>.
+		</div>
+
+		<table border="6" bordercolordark="blue" bordercolorlight="#CCCCFF" cellpadding="2">
+			<tr>
+				<td rowspan="5" align="center" width="110" bgcolor="#CCCCFF">
+					<img datasrc="#Staff_Info" datafld="Photo"><br>
+					<span datasrc="#Staff_Info" datafld="Name">Name</span>
+				</td>
+				<td width="120" bgcolor="blue">
+					<span class="rowhead">Department:</span>
+				</td>
+				<td width="240" bgcolor="white">
+					<span datasrc="#Staff_Info" datafld="Department">Department:</span>
+				</td>
+			</tr>
+			<tr>
+				<td width="120" bgcolor="blue">
+					<span class="rowhead">Position:</span>
+				</td>
+				<td width="240" bgcolor="white">
+					<span datasrc="#Staff_Info" datafld="Position">Position:</span>
+				</td>
+			</tr>
+			<tr>
+				<td width="120" bgcolor="blue">
+					<span class="rowhead">Phone:</span>
+				</td>
+				<td width="240" bgcolor="white">
+					<span datasrc="#Staff_Info" datafld="Phone">Phone:</span>
+				</td>
+			</tr>
+			<tr>
+				<td width="120" bgcolor="blue">
+					<span class="rowhead">Years Employed:</span>
+				</td>
+				<td width="240" bgcolor="white">
+					<span datasrc="#Staff_Info" datafld="Years">Years Employed:</span>
+				</td>
+			</tr>
+			<tr>
+				<td width="120" bgcolor="blue">
+					<span class="rowhead">Status:</span>
+				</td>
+				<td width="240" bgcolor="white">
+					<span datasrc="#Staff_Info" datafld="Status">Job Status</span>
+				</td>
+			</tr>
+		</table>
+		<br>
+
+		<button onclick="Staff_Info.recordset.moveFirst();">
+			|&lt; First
+		</button>
+		<button onclick="Staff_Info.recordset.movePrevious(); if(Staff_Info.recordset.BOF) Staff_Info.recordset.moveLast();">
+			&nbsp;&nbsp;&lt; Back &nbsp;&nbsp;
+		</button>
+		<button onclick="Staff_Info.recordset.moveNext(); if(Staff_Info.recordset.EOF) Staff_Info.recordset.moveFirst();">
+			Forward &gt;
+		</button>
+		<button onclick="Staff_Info.recordset.moveLast();">
+			Last &gt;|
+		</button>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

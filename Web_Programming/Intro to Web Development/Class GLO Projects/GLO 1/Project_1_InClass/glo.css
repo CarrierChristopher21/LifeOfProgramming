@@ -1,0 +1,96 @@
+
+body{
+ font:100% verdana, arial, helvetica, sans-serif;
+ background: #b27f7f url(images/background.gif) no-repeat;
+ margin: 0;
+ padding: 0;
+ 
+}
+
+#container {
+ width: 800px;
+ background:#fff;
+ margin: 0 auto;
+ border: 1px solid #000;
+ 
+}
+
+#header{
+ background: #fff url(images/3223banner.gif) no-repeat;
+ height: 60px;
+ 
+}
+
+h1{
+ position:absolute;
+ height: 0;
+ overflow: hidden;
+ 
+}
+
+#navigation{
+ position: relative;
+ margin: 0 0 1em 0;
+ text-align: center;
+ font-size: 18px;
+
+}
+
+#navigation a{
+ text-decoration: none;
+ display: inline; /* Makes likes horizontal-align */ 
+ background: #600;
+ margin: 0 1em 1px 1em;
+ padding: 0 0.5em;
+ color:white;
+ 
+}
+
+#navigation a:hover{
+ background: #b27f7f;
+ 
+}
+
+#navigation a:visited{
+ background: #b27f7f;
+ color: white;
+ 
+}
+
+#content {
+ padding: 0 20px;
+ 
+}
+
+#content img{
+ height: 250px;
+ width: 200px;
+ float: right;
+ border: 4px solid #600;
+ margin-left: 10px;
+ 
+}
+
+#content dt{
+ color: #fff;
+ background-color: #600;
+ width: 200px;
+
+}
+
+#content table{
+ width: 500px;
+ 
+}
+
+#content table th{
+ color:#600;
+ text-decoration: underline;
+ text-align: left;
+ 
+}
+
+
+
+
+

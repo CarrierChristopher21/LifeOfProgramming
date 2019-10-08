@@ -1,0 +1,2 @@
+1.) Put your HTML elements inside containers
+2.) You need to know typography grids

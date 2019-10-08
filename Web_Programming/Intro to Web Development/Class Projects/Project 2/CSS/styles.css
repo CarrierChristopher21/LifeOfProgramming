@@ -1,0 +1,316 @@
+/* This is a comment */
+/* Style Sheet for Cart Design Code! */
+
+
+/*	Header	*/
+#head_welcome{
+	background:url(../images/header/Face_Factory.png) no-repeat;
+	width:100%;
+	height:40px;
+}
+ 	
+	/* div */
+
+ /* Navigation ul Id */
+#cart-navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+
+ } 
+
+div.navigation{
+	margin-top: 100px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:32px;
+	background:url(../images/Cart/greenBG.gif) repeat-x;
+	z-index:100;
+	text-indent:50px;
+
+}
+
+
+/* sorted from here down */
+	/* Links */
+
+ /* Default Link Code */
+a:link {color:white;}
+a:visited  {color:#339900;}
+a:active   {color:#FF3300;}
+a:hover {color:red;}
+
+ /* Center */
+a.center:link {color:white;}
+a.center:visited{color:Magenta;}
+a.center:active   {color:#FF3300;}
+a.center:hover {color:red;}
+
+ /* Comment Box */
+a.comment-box:link {color:white;}
+a.comment-box:visited{color:Magenta;}
+a.comment-box:active   {color:#FF3300;}
+a.comment-box:hover {color:red;}
+
+
+	/* hr */
+ /* hr Main Seperation Code */
+hr.seperation{
+ width: 50%;
+ color:white;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom:20px;
+}
+
+ /* hr li Seperation */
+hr.li-seperation{
+ width:70%;
+ color:white;
+ text-align:left;
+ 
+}
+
+/*	Catalog Faces	*/
+ul.catalog_face{
+	width: 755px;	
+	height: 425px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	float: left;
+	display: inline;
+	overflow: auto;
+	list-style-position: inside;
+}
+
+ul.catalog_face li{
+	float:left;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 50px;
+	margin-left:25px;
+	display: inline;
+	
+}
+
+ul.catalog_face li img{
+	display:block;
+}
+/*		Contact US		*/
+li.contact_us{
+ text-decoration: none;
+ list-style-type:none;
+ display:block;
+ width: 700px;
+ font:bold 18px Helvetica,Arial,sans-serif;
+ position: relative;
+ 
+}
+#monkey-fool p{
+	margin-top: -20px;
+	margin-right: 60px;
+	width: 600px;
+	font: 18px Helvetica, Arial, sans-serif;
+}
+
+#monkey-fool img {
+ width: 300px;
+ height: 150px;
+ margin: -8px 150px 1em 3em;
+ padding: 1px;
+ float: right;
+ 
+}
+
+#contact_us{
+	width:770px;
+	margin:15px 0 0 10px;
+	float:left;
+	height:50px;
+	margin-bottom: 20px;
+	
+}
+
+#contact_us li{
+	display:block;
+	margin-top: 2px;
+	margin-bottom:2px;
+	margin-left: 20px;
+	position: relative;
+}
+
+div.vice-president{
+	margin-top: 70px;
+
+}
+
+/*		Index		*/
+ul.catalog_face_index{
+	width: 755px;	
+	height: 200px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	float: left;
+	display: inline;
+	text-align: center;
+}
+
+ul.catalog_face_index li{
+	margin-top: 10px;
+	margin-right: 25%;
+	margin-bottom: 50px;
+	margin-left:25%;
+	display: inline;
+	
+}
+
+ul.catalog_face_index li img{
+	display:block;
+}
+
+ul.index_face{
+	width: 755px;	
+	height: 450px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	float: left;
+	display: inline;
+	overflow: auto;
+	list-style-position: inside;
+}
+
+ul.index_face li{
+	float:left;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 50px;
+	margin-left:25px;
+	display: inline;
+	
+}
+
+ul.index_face li img{
+	display:block;
+}
+
+
+/*	Animation			*/
+
+#animation{
+	width:770px;
+	height: 450px;
+	margin:15px 0 0 10px;
+	float:left;
+	margin-bottom:15px;	
+	
+}
+
+#animation li{
+	display:block;
+	margin-top: 2px;
+	margin-bottom:2px;
+	margin-left: 20px;
+	position: relative;
+}
+
+
+#animation-index{
+	width:770px;
+	margin:15px 0 0 10px;
+	float:left;
+	height:50px;
+	margin-bottom: 20px;
+	
+}
+
+#animation-index li{
+	display:block;
+	margin-top: 2px;
+	margin-bottom:2px;
+	margin-left: 20px;
+	position: relative;
+}
+
+#index{
+	width:770px;
+	height: 450px;
+	margin:15px 0 0 10px;
+	float:left;
+	margin-bottom: 15px;
+
+}
+
+
+li.animation-description{
+ text-decoration: none;
+ list-style-type:none;
+ display:block;
+ width: 700px;
+ font:bold 18px Helvetica,Arial,sans-serif;
+}
+
+div.animation{
+ text-align:center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 25%;
+ margin-right: 25%;
+ float: left;
+}
+
+object.animation{
+ width: 400px;
+ height: 350px;
+ 
+}
+
+/*		Footer		*/
+#footer{
+	clear:both;
+	margin-top:15px;
+	margin-bottom: 20px;
+	text-align:center;
+	font:normal 11px Helvetica, Arial, sans-serif;
+	color:#e7ebf0;
+	opacity:.999;
+}
+
+#footer a{
+	color:#aaa;
+	text-decoration:none;
+}
+#footer a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

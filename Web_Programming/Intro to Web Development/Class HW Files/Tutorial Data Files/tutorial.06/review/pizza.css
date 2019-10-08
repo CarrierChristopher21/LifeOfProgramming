@@ -1,0 +1,174 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Review Assignment
+
+   Pizza Order Style Sheet
+   Author: Chris Carrier
+   Date:   10/15/14
+
+   Filename:         pizza.css
+   Supporting Files: delivery.png, okay.png, warning.png
+
+*/
+
+fieldset {
+ background-color: rgb(255, 246, 205);
+ border: 1px solid rgb(233, 69, 0);
+ float: left;
+ margin: 1%;
+ 
+ 
+}
+
+#custInfo {
+ width: 35%;
+  
+}
+
+#buildPizza {
+ width: 60%;
+ 
+}
+
+#meat, #vegetables {
+ background-color: rgb(237, 178, 74);
+ 
+}
+
+fieldset legend {
+ font-size: 0.9em;
+ 
+}
+
+label {
+ display: blocks;
+ font-size: 0.8em;
+ float: left;
+ margin-left: 0px;
+ width: 40%; 
+ margin-top: 5px;
+ margin-bottom: 5px;
+ padding-left: 5px;
+ 
+}
+
+input, textarea {
+ display:blocks;
+ float: left;
+ width: 50%;
+ margin-top: 5px;
+ margin-bottom: 5px;
+
+}
+ 
+textarea{
+ height: 100px;
+ 
+}
+
+form img {
+ display: blocks;
+ float: left;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ 
+}
+
+#delTime{
+ width: 150px;
+ 
+}
+
+#sizeimage{
+ margin-left: 40%;
+ 
+}
+
+input.size{
+ width: 200px;
+ background: transparent;
+ 
+}
+
+select.crust{
+ float: left;
+ font-size: 0.8em;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ width: 150px;
+ 
+}
+
+input.quantity{
+ width: 40px;
+ 
+}
+
+fieldset.optionGroup{
+ width:50%;
+ border: none;
+ background: transparent;
+ 
+}
+
+fieldset input[type="radio"]{
+ width: 30px;
+ 
+}
+
+input [type="checkbox"]{
+ width:20px;
+ 
+}
+
+input[type="submit"]{
+ width: 150px;
+ float: none;
+ margin: 0px auto;
+ 
+}
+
+input:focus, selectf:focus, textarea:focus{
+ background-color: rgb(220, 255, 220);
+ 
+}
+
+input:focus:valid{
+ background-color: rgb(220, 255, 220);
+ background-image: url("okay.png");
+ background-repeat: no-repeat;
+ background-position: bottom right;
+ -o-background-size: contain;
+ -moz-background-size: contain;
+ -webkit-background-size:contain;
+ background-size: contain;
+ 
+}
+
+input:focus:invalid{
+ background-color: rgb(255, 232, 233);
+ background-image: url("warning.png");
+ background-repeat: no-repeat;
+ background-position: bottom right;
+ -o-background-size: contain;
+ -moz-background-size: contain;
+ -webkit-background-size:contain;
+ background-size: contain;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

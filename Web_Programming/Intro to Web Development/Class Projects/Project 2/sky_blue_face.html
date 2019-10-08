@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="keywords" content="Face, Sky Blue, Face Cart, Cart, Shopping, Face Expressions, Face Factory, Expression, Smile, Frown, Worry, Bored">
+		<meta name="description" content="Face Factory Shopping Site">
+
+		<title>Sky Blue Face's</title>
+		<link rel="stylesheet" href="CSS/example.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="CSS/drop_down_styles.css" type="text/css" charset="utf-8" media="screen" />
+		<link rel="stylesheet" href="CSS/styles.css" type="text/css" charset="utf-8" media="screen" />
+		<link rel="stylesheet" href="CSS/link_lists_styles.css" type="text/css" charset="utf-8" media="screen" />
+		<!--[if lte IE 6]><link rel="stylesheet" href="CSS/ie6.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="CSS/ie7.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+		<!--Include the SimpleCart(js) script-->
+		<script src="javascripts/simpleCart.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--Make a new cart instance with your paypal login email-->
+		<script type="text/javascript">
+			simpleCart = new cart("carriect@alfredstate.edu");
+		</script>
+		
+		<!--CSS for the Cart. Customize anything you damn well please.
+			Use Firebug or Webkit's Element Inspector to get a more 
+			indepth idea of what simpleCart Generates.
+		-->
+		<style>
+			.cartHeaders,.totalRow{display:none;}
+			.simpleCart_items{
+				overflow-y:auto;
+				overflow-x:hidden;
+				height:324px;
+				width:243px;
+				margin-bottom:20px;
+			}
+			.itemContainer{
+				clear:both;
+				width:229px;
+				padding:11px 0;
+				font-size:11px;
+			}
+			.itemImage{
+				float:left;
+				width:60px;
+			}
+			.itemName{
+				float:left;
+				width:85px;
+			}
+			.itemPrice{
+				float:left;
+				width:85px;
+				color:#418932;
+			}
+			.itemQuantity{
+				float:left;
+				width:33px;
+				margin-top:-12px;
+				vertical-align:middle;
+			}
+			.itemQuantity input{
+				width:20px;
+				border:1px solid #ccc;
+				padding:3px 2px;
+			}
+			
+			.itemTotal{
+				float:left;
+				color:#c23f26;
+				margin-top:-6px
+			}
+		</style>
+			
+	</head>
+
+	<body>
+		<div>	<!--	Face Factory Image	-->
+			<h1 id="head_welcome">Welcome to the Face Factory</h1>
+		</div>
+		
+		<div id="cart-navigation" class="navigation">
+			<div id="drop-down">
+				<ul>
+					<li class="cart-my-sites"><a class="cart-nav" href="index.html">Home</a></li>
+					<li class="cart-my-sites"><a class="cart-nav" href="color_face.html">Color Faces</a>
+						<ul>
+							<li class="cart-internal-sites"><a class="cart-nav" href="red_face.html">Red Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="orange_face.html">Orange Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="yellow_face.html">Yellow Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="light_green_face.html">Light Green Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="green_face.html">Green Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="sky_blue_face.html">Sky Blue Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="blue_face.html">Blue Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="purple_face.html">Purple Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="pink_face.html">Pink Faces</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="magenta_face.html">Magenta Faces</a></li>
+						</ul>					
+					</li>
+					<li class="cart-my-sites"><a class="cart-nav" href="face_expression.html">Face Expressions</a>
+						<ul>
+							<li class="cart-internal-sites"><a class="cart-nav" href="smile_face.html">Smile Face's</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="frown_face.html">Frown Face's</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="worry_face.html">Worry Face's</a></li>
+							<li class="cart-internal-sites"><a class="cart-nav" href="bored_face.html">Bored Face's</a></li>
+						</ul>
+					</li>
+					<li class="cart-my-sites"><a class="cart-nav" href="myCart.html">My Cart</a></li>
+					<li class="cart-my-sites"><a class="cart-nav" href="animation.html">Animation</a></li>
+					<li class="cart-my-sites"><a class="cart-nav" href="contact_us.html">Contact Us!</a></li>	
+					<li class="cart-external-sites"><div class="external-sites">School!</div>
+						<ul class="external">
+							<li class="cart-drop-external-sites"><a class="cart-nav" href="http://www.alfredstate.edu" target="_blank">Alfred State</a></li>
+						</ul>	
+					</li>
+				</ul>	
+			</div>
+		</div>
+		
+		<div id="content">
+			<div id="header">
+				<h1 class="simpleCart_face">Face Factory Cart</h1>
+			</div>
+			
+			<!--Here's the Catalog Items. You can make anything into a product, 
+				just copy and paste the onclick attribute from one of the products 
+				below.
+			-->
+			<ul class="catalog_face">
+				
+				<li>
+					<img src="images/Faces/Sky_Blue/PNG/Smile-Face.png" alt="Sky Blue Smile Face" />
+					<div class="description"><span class="price">$61</span><b>Sky Blue Smile Face<br/><a href="#" class="cart-add" onclick="simpleCart.add('name=Sky Blue Smile Face','price=61','image=images/Face_Thumbs/Sky_Blue/PNG/Smile-Face.png');return false;"> add to cart</a></b></div>
+				</li>
+				
+				<li>
+					<img src="images/Faces/Sky_Blue/PNG/Frown-Face.png" alt="Sky Blue Frown Face" />
+					<div class="description"><span class="price">$91</span><b>Sky Blue Frown Face<br/><a href="#" class="cart-add" onclick="simpleCart.add('name=Sky Blue Frown Face','price=91','image=images/Face_Thumbs/Sky_Blue/PNG/Frown-Face.png');return false;"> add to cart</a></b></div>
+				</li>
+				
+				<li>
+					<img src="images/Faces/Sky_Blue/PNG/Worry-Face.png" alt="Sky Blue Worry Face" />
+					<div class="description"><span class="price">$81</span><b>Sky Blue Worry Face<br/><a href="#" class="cart-add" onclick="simpleCart.add('name=Sky Blue Worry Face','price=81','image=images/Face_Thumbs/Sky_Blue/PNG/Worry-Face.png');return false;"> add to cart</a></b></div>
+				</li>
+				
+				<li>
+					<img src="images/Faces/Sky_Blue/PNG/Bored-Face.png" alt="Sky Blue Bored Face" />
+					<div class="description"><span class="price">$71</span><b>Sky Blue Bored Face<br/><a href="#" class="cart-add" onclick="simpleCart.add('name=Sky Blue Bored Face','price=71','image=images/Face_Thumbs/Sky_Blue/PNG/Bored-Face.png');return false;"> add to cart</a></b></div>
+				</li>
+			</ul>
+			<!--/ Catalog-->
+			
+			
+			<div id="sidebar">
+				<h2>Your Cart</h2>
+				
+				
+				<!--Add a Div with the class "simpleCart_items" to show your shopping cart area.-->
+				<div class="simpleCart_items" >
+				</div>
+				
+				
+				<!--Here's the Links to Checkout and Empty Cart-->
+				<a href="#" class="simpleCart_empty">empty cart</a>
+				<a href="#" class="simpleCart_checkout">Checkout</a>
+				
+				
+				
+				<!--Nothing below this has to do with simpleCart (js) functionality-->
+				<div id="downloadContainer">
+					<h3>Download</h3>
+					<a href="#"><img src="images/Cart/smallLogo.gif" alt="Download simpleCart(js)" id="smallLogo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#">Version 1.0</a>&nbsp;&nbsp;<a href="#"><img src="images/Cart/arrow.gif" alt="Download simpleCart(js)"></a>
+				</div>	
+			<!--End #sidebar-->	
+			</div>
+			<div id="footer">
+				&copy; 2014 used as a template<br />
+				Created by <a href="http://thewojogroup.com"><img src="images/Cart/wojo.gif" alt="The Wojo Group" /></a> <a href="http://thewojogroup.com">The Wojo Group</a> &nbsp;&nbsp;
+				&bull;&nbsp;&nbsp;<img src="images/Cart/microLogo.gif" alt="simple cart js" style="vertical-align:bottom" /> is licensed under <a href="#">MIT License</a>
+			</div>	
+		<!--End #content-->		
+		</div>
+	</body>
+</html>

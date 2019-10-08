@@ -1,0 +1,12 @@
+<!ENTITY % StudDTD
+"<!ELEMENT Students (Notes, Student+)>
+<!ELEMENT Notes (#PCDATA)>
+<!ELEMENT Student (Name, Status, Major, Dorm, Advisor)>
+<!ATTLIST Student SID ID #REQUIRED>
+<!ELEMENT Name (FName, LName)>
+<!ELEMENT FName (#PCDATA)>
+<!ELEMENT LName (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+<!ELEMENT Major (#PCDATA)>
+<!ELEMENT Dorm (#PCDATA)>
+<!ELEMENT Advisor (#PCDATA)>">

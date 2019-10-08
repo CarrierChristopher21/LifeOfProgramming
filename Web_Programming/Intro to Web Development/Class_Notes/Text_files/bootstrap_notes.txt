@@ -1,0 +1,11 @@
+	www.getbootstrap.com
+	
+	CDN's
+		min css
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootsrap.min.css">
+		
+	optional theme
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootsrap-theme.min.css">
+		
+	javascript
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootsrap.min.js"></script>

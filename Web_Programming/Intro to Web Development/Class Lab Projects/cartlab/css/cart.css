@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+ font: 100% Verdana, Arial, Helvetica, sans-serif;
+ background: #666;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ color: #000;
+ 
+}
+
+#container{
+ width: 1044px;
+ height: 1000px;
+ margin: 10px auto 20px auto;
+ background: #FFF;
+ border: 1px solid #000;
+ text-align: left;
+ 
+}
+
+#header {
+	background: url(../images/logo.gif) no-repeat #fff;
+	height: 70px;	
+}
+
+#header h1{
+ height: 0;
+ overflow: hidden;
+ 
+}
+
+#catalog {
+ width: 600px;
+ margin: 10px 0 0 10px;
+ float: left;
+ heigth: 440px;
+ 
+}
+
+#catalog li{
+ float: left;
+ margin: 25px 25px 75px 25px;
+ list-style: none;
+ 
+}
+
+#catalog li img{
+ display: block;
+ 
+}
+
+.price {
+ display: block;
+ float: left;
+ background: url(../images/span.png);
+ width: 33px;
+ height: 21px;
+ line-height: 20px;
+ margin: 6px 4px 0 0;
+ padding: 2px 0 0 5px;
+ font-weight: lighter;
+ 
+}
+
+#sidebar{
+ margin-right: 5px;
+ width: 300px;
+ margin-top: -70px;
+ margin-left:20px;
+}
+
+div.sidebar {
+ margin-left: 10px;
+ display:block;
+ margin-top: 20px;
+}
+
+#sidebar a{
+ font-size: 18px;
+ color: #000;
+ 
+}
+
+#sidebar a.simpleCart_checkout, .checkoutEmptyLinks a.simpleCart_checkout{
+ display: -moz-inline-box;
+ display: inline-block;
+ width: 87px;
+ height: 25px;
+ background: url(../images/btnCheckout.gif);
+ overflow: hidden;
+ vertical-align: middle;
+ text-indent: -9999px;
+ font-size: 0;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+

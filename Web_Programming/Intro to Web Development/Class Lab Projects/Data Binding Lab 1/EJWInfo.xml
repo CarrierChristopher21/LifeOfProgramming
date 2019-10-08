@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<Information>
+   <Title>Enke's Jazz Warehouse</Title>
+   <Subtitle>Staff Information Page</Subtitle>
+   <Purpose>
+     <![CDATA[
+This page contains information on the staff of Enke's Jazz Warehouse. 
+Staff members are divided into four groups: Accounting, Sales, Manufacturing,
+and Advertising. Each employee's name, department, position, phone number, years
+employed, and job status (full or part-time) is reported.
+     ]]>
+   </Purpose>
+   <Author>Evan Enke</Author>
+   <Author_Email>mailto:enkeeg@alfredstate.edu</Author_Email>
+</Information>

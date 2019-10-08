@@ -1,0 +1,336 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Design Code! */
+
+ /* Body */
+body {
+ background-color: black;
+ color:black; 
+ font-family: Arial, Helvetica, Sans-Serif;
+ border-color:white;
+ margin:20px;
+ 
+}
+
+ /* Table */
+table{
+ border-collapse:collapse;
+} 
+
+ /* Body */
+table.scenario-body{
+ width:100%;
+ border:2px solid white;
+ border-collapse: collapse;
+
+
+}
+
+	/* th */
+ 
+ /* th site-row */
+th.scenario-site-row{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+ text-align:left;
+}
+ 
+ /* th title */
+th.title{
+ color:black;
+ background-color:blue;
+ text-align:center;
+ border:2px solid white;
+ border-spacing:2px;
+ height: 100px;
+ font-size:40px;
+
+}
+
+
+	/* td */
+ 
+ /* td Center */ 
+td.scenario-center{		/* if you have color on body and here */ 
+ color:black;	/* this will override the color of font */
+ background-color: #FF0000;
+ text-align:left;
+ vertical-align:top;
+ border:2px solid white;
+ width:54%;
+}
+
+ /* td Description */
+td.scenario-description{
+	color: white;
+	background-color: black;
+	vertical-align: top;
+	border: 2px solid white;
+	border-spacing: 2px;
+	width: 23%;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+	/* Headers */
+	
+	/* h1 */
+
+ /* h1 Title */
+h1.scenario-center-title {
+ color:white;
+ text-align:center;
+ margin-bottom:20px;
+ text-decoration:underline;
+  
+}
+
+ /* h1 description */
+h2.scenario-description-title{
+ text-align:center;
+ color:white;
+ text-decoration:underline;
+ margin-bottom:20px;
+  
+}
+ 
+  /* h1 description */
+h1.scenario-opinion-title{
+ text-align:center;
+ color:white;
+ text-decoration:underline;
+ margin-bottom:20px;
+ font-size:25px;
+}
+	/* h2 */
+	
+ /* Center-Description h2 */
+h2.scenario-center-title{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:30px;
+ margin-left:50px;
+ }
+ 
+ h2.scenario-center-heading{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:30px;
+
+ }
+
+ /* center-description h2 */
+h2.scenario-description-title{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-right:10px;
+ margin-left:10px;
+ margin-bottom:20px;
+ 
+}
+
+	
+	/* div */
+
+ /* Div default */
+div{
+ margin-bottom:20px;
+}
+
+ /* Title */
+div.scenario-center-title{
+ text-align:center;
+ margin-bottom:30px;
+
+}
+
+div.scenario-description-title{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+ /* div Footer */
+div.scenario-footer{
+ font-size:small;
+ font-family: Arial, Helvetica, Sans-Serif;
+ text-align:center;
+ color:white;
+ font-style:italic;
+ margin-bottom:20px;
+ 
+}
+ 
+ /* Navigation center */
+div.scenario-navigation-center ul{
+ margin-left:20px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+
+ /* navigation description */
+div.scenario-navigation-description ul, ol{
+ margin-left:25px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+
+div.scenario-paypal{
+ text-align:center;
+ margin-bottom:20px;
+}
+
+ /* Top page */
+div.scenario-top-page{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+ /* Navigation ul Id */
+#navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+
+ } 
+
+ /* div Videos */
+div.videos{
+ margin-left:20px;
+ margin-right:20px;
+ margin-bottom:20px;
+ text-align:center;
+ vertical-align:top;
+
+}*/
+
+ /* video title */
+div.video-title{
+ text-align:center;
+ vertical-align:top;
+ margin-bottom:20px;
+
+}
+
+	 /* p */
+ /* p center description */
+p.scenario-center-description{
+ margin-left: 10px;
+ margin-right: 8px;
+ margin-bottom: 20px;
+ padding: 10px;
+ 
+}
+
+ /* p description */
+p.scenario-description{
+ margin-left: 10px;
+ margin-right: 8px;
+ margin-bottom: 20px;
+ padding: 10px;
+ 
+}
+ 
+	/* img */
+	
+ /* img paypal */
+img.scenario-paypal{
+ border:0;
+ padding:10px;
+ margin-top:20px;
+}
+	
+	/* input */
+	
+	/* input paypal */
+input.scenario-paypal{
+ border:0;
+ margin-top:50px;
+ }
+
+
+
+
+/* sorted from here down */
+	/* Links */
+
+ /* Default Link Code */
+a:link {color:white;}
+a:visited  {color:#339900;}
+a:active   {color:#FF3300;}
+a:hover {color:red;}
+
+ /* Center */
+a.center:link {color:white;}
+a.center:visited{color:Magenta;}
+a.center:active   {color:#FF3300;}
+a.center:hover {color:red;}
+
+ /* Comment Box */
+a.comment-box:link {color:white;}
+a.comment-box:visited{color:Magenta;}
+a.comment-box:active   {color:#FF3300;}
+a.comment-box:hover {color:red;}
+
+	/* ul, ol, li */
+	
+ /* li spec-ops-center */
+li.scenario-center{
+ margin-bottom:5px;
+ list-style-type:none;
+ 
+}
+
+ /* li center description */
+li.scenario-center-description{
+ margin-bottom:10px;
+ list-style-type:none;
+ 
+}
+
+ /* li center sites */
+li.scenario-center-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ list-style-type:none;
+ 
+}	
+ 
+ /* li Description */
+li.scenario-description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:8px;
+ list-style-type:none;
+ 
+} 
+
+	/* hr */
+
+ /* hr Main Seperation Code */
+hr.seperation{
+ width: 50%;
+ color:white;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom:20px;
+}
+
+ /* hr li Seperation */
+hr.li-seperation{
+ width:70%;
+ color:white;
+ text-align:left;
+ 
+}
+
+

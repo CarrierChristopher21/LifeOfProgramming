@@ -1,0 +1,73 @@
+/*Form*/
+form {
+	font-size: 15px;
+	margin-left: 5%;
+	width: 90%;
+}
+
+	form input, form select {
+		height: 20px;
+		width: 25%;
+		font-size: 15px;
+	}
+
+	form select {
+		height: 20px;
+		width: 50px;
+	}
+
+	form textarea {
+		border-radius: 2px;
+		width: 100%;
+		font-size: 15px;
+	}
+
+	form button {
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		width: 150px;
+		height: 55px;
+		margin-bottom: 50px; 
+		margin-top: 0;
+		background-color: #36DA82;
+		border: 1px solid #2ba262;
+		border-radius: 2px;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+
+		form button:active {
+			background-color: #2ba262;
+
+		}
+
+	form #outOfTen {
+		font-size:75px;
+		float: right;
+	}
+
+
+/*Customer Reviews*/
+#comments {
+	width: 100%;
+
+
+}
+
+	#comments .comment {
+		width: 100%;
+		margin-bottom: 20px;
+		text-indent: 5px;
+	}
+
+		#comments .comment #nameDate {
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+			#date {
+				float: right;
+				font-size: 12px;
+				color: #666;
+			}

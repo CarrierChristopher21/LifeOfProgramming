@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<xml-stylesheet type="text/css" href="students.css" ?>
+<!DOCTYPE Students SYSTEM "students2.dtd">
+	<Students>
+		<Notes>
+			<![CDATA[
+				My Students are the BESTEST!!!
+			]]>
+		</Notes>
+		<Student SID="123">
+			<Name>
+				<FName>Shane</FName>
+				<LName>Jacobs</LName>
+			</Name>
+			<Status>&F;</Status>
+			<Major>Web Development</Major>
+			<Dorm>Main Gate 8</Dorm>
+			<Advisor>&SO;</Advisor>
+		</Student>
+		<Student SID="456">
+			<Name>
+				<FName>Thomas</FName>
+				<LName>Hakes</LName>
+			</Name>
+			<Status>Part Time Student</Status>
+			<Major>Information Security</Major>
+			<Dorm>Peet</Dorm>
+			<Advisor>Jim BoardMan</Advisor>
+			
+		</Student>
+	</Students>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

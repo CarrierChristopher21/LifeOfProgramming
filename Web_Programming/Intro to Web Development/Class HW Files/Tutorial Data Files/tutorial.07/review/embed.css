@@ -1,0 +1,41 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 7
+   Review Assignment
+
+   Jumbo Popcorn Style Sheet
+
+   Author:		Chris Carrier
+   Date:		10/22/14
+
+   Filename:         embed.css
+   Supporting Files: 
+
+*/
+
+audio, video{
+ display: block;
+ width: 90%;
+ margin: 5px auto;
+}
+
+object{
+ display: block;
+ margin: 5px auto;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

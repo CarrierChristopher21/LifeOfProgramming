@@ -1,0 +1,227 @@
+
+body{
+ font:100% verdana, arial, helvetica, sans-serif;
+ background: #b27f7f url(../images/fireworksground.jpg) no-repeat;
+ margin: 0;
+ padding: 5px 0 5px 0;
+  
+}
+
+body.homecoming{
+ font:100% verdana, arial, helvetica, sans-serif;
+ background: #b27f7f url(../images/homecomingbackground.jpg) repeat;
+ padding: 5px 0 20px 0;
+ margin: 0;
+ 
+}
+
+body.bonfire{
+ font:100% verdana, arial, helvetica, sans-serif;
+ background: #b27f7f url(../images/bonfire.jpg) repeat;
+ margin: 0;
+ padding: 7px 0 5px 0;
+
+}
+
+body.fireworks{
+ font:100% verdana, arial, helvetica, sans-serif;
+ background: #b27f7f url(../images/fireworksbackground.jpg) repeat;
+ margin: 0;
+ padding: 7px 0 5px 0;
+
+}
+
+body.mens_soccer{
+ font:100% verdana, arial, helvetica, sans-serif;
+ background: #b27f7f url(../images/soccerbackground.jpg) repeat;
+ padding: 5px 0 5px 0;
+ margin: 0;
+ 
+}
+
+#container {
+ width: 1000px;
+ background:#fff;
+ margin: 0 auto;
+ border: 1px solid #000;
+ 
+}
+
+#container.container {
+ width: 1000px;
+ background:silver;
+ margin: 0 auto;
+ border: 1px solid #000;
+ 
+}
+
+#header{
+ background: #b27f7f url(../images/3223banner.gif) no-repeat center;
+ height: 60px;
+ background-color:white;
+ border-bottom: 5px solid #b27f7f; 
+}
+
+#header.homecoming{
+ background: #b27f7f url(../images/homecomingbanner.jpg) no-repeat center;
+ height: 200px;
+ background-color:white;
+ border-bottom: 5px solid #b27f7f; 
+ border-left: 2px solid #b27f7f;
+ border-right: 2px solid #b27f7f;
+ 
+}
+
+#header.bonfire{
+ background: #b27f7f url(../images/bonfirebanner.png) no-repeat center;
+ height: 200px;
+ background-color:black;
+ border-bottom: 5px solid #b27f7f; 
+ border-left: 2px solid #b27f7f;
+ border-right: 2px solid #b27f7f;
+ 
+}
+
+#header.fireworks{
+ background: #b27f7f url(../images/fireworksbanner1.png) no-repeat center;
+ height: 200px;
+ background-color: black;
+ border-bottom: 5px solid #b27f7f;  
+}
+
+
+#header.mens_soccer{
+ background: #b27f7f url(../images/soccerbanner.png) no-repeat center;
+ height: 200px;
+ background-color:white;
+ border-bottom: 5px solid #b27f7f; 
+ border-left: 2px solid #b27f7f;
+ border-right: 2px solid #b27f7f;
+ 
+}
+
+h1{
+ position:absolute;
+ height: 0;
+ overflow: hidden;
+ 
+}
+
+#navigation{
+ position: relative;
+ margin: 0 0 1em 0;
+ text-align: center;
+ font-size: 18px;
+ padding-top:5px;
+
+}
+
+#navigation a{
+ text-decoration: none;
+ display: inline; /* Makes likes horizontal-align */ 
+ background: #600;
+ margin: 0 1em 1px 1em;
+ padding: 0 0.5em;
+ color:white;
+ 
+}
+
+#navigation a:hover{
+ background: #b27f7f;
+ 
+}
+
+#navigation a:visited{
+ color: white;
+ 
+}
+
+#content {
+ padding: 0 20px;
+ 
+}
+
+#content.adjustments{
+ height:500px;
+ 
+} 
+
+#content.adjust{
+ height:1000px;
+ 
+} 
+
+#content h2{
+ text-align: center;
+
+}
+#content img{
+ height: 250px;
+ width: 200px;
+ float: right;
+ border: 4px solid #600;
+ margin-left: 10px;
+ 
+}
+
+#content img.homecoming{
+ height: 350px;
+ width: 400px;
+ float: right;
+ border: 4px solid #600;
+ margin-left: 10px;
+ 
+}
+
+#content img.bonfire_time{
+ height: 350px;
+ width: 400px;
+ float: right;
+ border: 4px solid #600;
+ margin-left: 10px;
+ 
+}
+
+#content img.fireworks{
+ height: 300px;
+ width: 300px;
+ float: right;
+ border: 4px solid #600;
+ margin-left: 10px;
+ 
+}
+
+#content img.mens_soccer{
+ height: 350px;
+ width: 400px;
+ float: right;
+ border: 4px solid #600;
+ margin-left: 10px;
+ 
+}
+
+#content dt{
+ color: black;
+ width: 300px;
+
+}
+
+#content table{
+ width: 500px;
+}
+
+#content table th{
+ color:#600;
+ text-decoration: underline;
+ text-align: left;
+ 
+}
+
+ol.listing_adjustments{
+ width: 450px;
+
+}
+
+
+
+

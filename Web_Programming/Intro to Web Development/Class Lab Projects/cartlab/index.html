@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Simple Cart JS Example</title>
+    	<script type="text/javascript" src="javascripts/simpleCart.js"></script>
+        
+        <script type="text/javascript">
+			simpleCart = new cart("carriect@alfredstate.edu");
+			
+		</script>
+        <link type="text/css" rel="stylesheet" href="css/cart.css" />
+        
+    </head>
+
+    <body>
+    	<div id="container">
+        	<div id="content">
+            	<div id="header">
+                	<h1>Simple Cart JS Example</h1>
+                </div>
+                	<ul id="catalog">
+                    	<li>
+                        	<img src="images/products/redShoe.jpg" alt="Red Shoe" />
+                            <span class="price">$50</span>
+                            <b>Red Shoes</b>
+                            <a href="#" onclick="simpleCart.add('name=Red Shoe', 'price=50', 'image=images/thumbs/redshoe.jpg'); 
+                            	return false; ">
+                                Add to Cart
+                            </a>                        	
+                        </li>
+                        <li>
+                        	<img src="images/products/greenStripe.jpg" alt="Green Stripe Shoe" />
+                            <span class="price">$85</span>
+                            <b>Green Strip Shoes</b>
+                            <a href="#" onclick="simpleCart.add('name=Green Stripe Shoe', 'price=85', 
+                            	'image=images/thumbs/greenStripe.jpg'); return false; ">
+                                Add to Cart
+                            </a>                        	
+                        </li>
+                        <li>
+                        	<img src="images/products/creamSlipon.jpg" alt="Cream Slipon Shoe" />
+                            <span class="price">$35</span>
+                            <b>Cream Slipon Shoes</b>
+                            <a href="#" onclick="simpleCart.add('name=Cream Slipon', 'price=35', 
+                            	'image=images/thumbs/creamSlipon.jpg'); return false; ">
+                                Add to Cart
+                            </a>                        	
+                        </li>
+                    </ul>
+                <div id="sidebar">
+					<h2>Your Cart</h2>
+                    <div class="simpleCart_items"></div>
+                    <a href="#" class="simpleCart_empty">Empty Cart</a>
+                    
+                    <a href="#" class="simpleCart_checkout">Check Out</a>
+                </div>
+			</div>
+		</div>
+    </body>
+</html>

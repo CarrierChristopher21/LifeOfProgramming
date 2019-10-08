@@ -1,0 +1,237 @@
+/*
+	New Perspectives on HTML and CSS
+	CISY 3223
+	GLO 2 Applications
+
+	Halloween Works Style Sheet
+
+	Author: Chris Carrier
+	Date:   10/31/14
+
+	Filename:         halloween.css
+	Supporting Files: Graveyard_Background.png
+
+*/
+
+body {
+	font-family: 'Shadows Into Light Two', cursive;
+    background-image: url(../images/Graveyard_Background.png);	/*	http://www.designbolts.com/2013/10/06/halloween-2013-pumpkins-vectors-posters-backgrounds-you-would-love-buy/	*/
+    background-color: white;
+    background-repeat: repeat-y;
+    font-size: 16px; 
+    margin: 0px;
+    position: absolute;
+}
+a{
+	letter-spacing: +1px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+p, li, h2{
+
+	letter-spacing: +1px;
+}
+#head {
+   background-color: white; 
+   border-bottom: 2px solid black; 
+   font-size: 16px;
+   font-family: sans-serif; 
+   margin: 0px;
+   padding-top: 5px;
+   position: absolute; 
+   text-align: right;
+   top: 0px; 
+   left: 0px; 
+   width: 800px; 
+}
+
+#head img {
+   margin: 0px;
+   float: left;
+}
+
+#main img{
+	float: right;
+	
+}
+
+#head a {
+   background-color: blue; 
+   border: 5px outset white; 
+   color: white;
+   font-size: 10px; 
+   font-weight: bold;
+   margin-left: 20px;
+   padding: 2px; 
+   text-decoration: none; 
+   text-align: center; 
+   width: 100px; 
+}
+
+#head a:hover {
+   background-color: yellow; 
+   border: 5px inset white;
+   color: black;
+}
+
+
+
+#linklist {
+   position: absolute; 
+   top: 125px; 
+   left: 0px; 
+   font-size: 14px; 
+   font-weight: bold; 
+   font-family: sans-serif; 
+   padding: 10px;
+   width: 140px; 
+}
+
+#linklist a {
+   display: block;
+   color: rgb(247,233,64); 
+   text-decoration: none; 
+}
+
+#linklist a:hover {
+   color: white; 
+   text-decoration: underline;
+}
+
+#linklist .newgroup {
+   margin-top: 10px;
+}
+
+#main {
+   position: absolute; 
+   top: 125px; 
+   left: 160px;
+   width: 640px;
+}
+
+.firstp:first-letter {
+   font-size: 300%; 
+   float: left;
+   line-height: 0.8; 
+}
+
+address {
+   border-top: 2px solid black; 
+   font-style: normal; 
+   font-size: 10px; 
+   font-family: sans-serif; 
+   text-align: center; 
+   margin-top: 15px;
+}
+
+img {
+   border-width: 0px;
+}
+
+/*	Pumpkins */
+
+/*	Pumpkin Internal Links	*/
+div.Pumpkins_Link{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+div.Pumpkins ul{
+	list-style-type: none;
+	padding:0;
+}
+
+div.Pumpkins ol{
+	padding:0;
+	margin-left: 20px;
+}
+
+/*	Pumpkin Listing	*/
+li.Pumpkin{
+	margin-bottom:5px;
+	
+}
+
+/*	External Pumpkin Link	*/
+li.Pumpkin_Ex_Link{
+	margin-bottom:5px;
+	list-style-type:none;
+}
+
+/*	Safety Tips	  */
+
+/*	Tips Internal Link	*/
+div.Tips_Link{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+div.Safety_Tips ul{
+	list-style-type: none;
+	padding:0;
+}
+div.Safety_Tips ol{
+	padding:0;
+	margin-left: 20px;
+}
+
+/*	Tip Listing	*/
+li.Tips{
+	margin-bottom:5px;	
+}
+
+/*	Tips External Link	*/
+li.Tips_Ex_Link{
+	margin-bottom:5px;
+	list-style-type:none;
+}
+
+/*	Daylight Savings */
+
+/*	Daylight Savings Internal Links	*/
+div.Daylight_Savings_Link{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+div.Daylight_Savings ul{
+	list-style-type: none;
+	padding:0;
+}
+
+div.Daylight_Savings ol{
+	padding:0;
+	margin-left: 20px;
+}
+
+/*	Daylight Savings Listing	*/
+li.Savings{
+	margin-bottom:5px;
+	
+}
+
+/*	External Daylight Savings Link	*/
+li.Daylight_Savings_Ex_Link{
+	margin-bottom:5px;
+	list-style-type:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

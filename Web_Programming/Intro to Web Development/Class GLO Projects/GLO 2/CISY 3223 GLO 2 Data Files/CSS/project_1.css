@@ -1,0 +1,102 @@
+/*
+	CISY 3223 Lab
+	CSS File for Index File
+*/
+
+body{
+ font: 80% verdana, helvetica, arial, sans-serif;
+ background: #000066 url(../images/background.gif);
+ margin: 0;
+ padding-right: 100px;
+ padding-left: 100px;
+ padding-bottom: 10px;
+ padding-top:5px;
+}
+
+#container{
+ position: relative;
+ width: 70%;
+ border: solid #ccc;
+ border-width: 0 4px;
+ margin: auto;
+ background: #ccc;
+}
+
+#header{
+ background: #fff url(../images/banner.gif) 
+ no-repeat;
+ height: 60px;
+ 
+}
+#title{
+ 
+ 
+}
+h1 {
+ position: absolute;
+ height: 0;
+ overflow: hidden;
+}
+
+#navigation{
+ position: absolute;
+ top: 60px;
+ left: 0;
+ width: 140px;
+ color: white;
+ 
+}
+
+#navigation ul {
+ margin: 1em 0 1em 0;
+ padding: 0;
+ list-style: none;
+ 
+}
+
+#navigation ul a {
+ color: #000066;
+ text-decoration: none;
+ display: block;
+ background: #ccc;
+ margin: 0 1em 1px 1em;
+ padding: 0 0.5em;
+ 
+}
+
+#navigation ul a:hover {
+ color: 28b;
+ background: #fff;
+ 
+}
+
+#navigation ul a:visited {
+ color: red;
+}
+
+#monkey-Fool{
+ background:white;
+ padding: 2px 20px 3em 45px;
+ border-left: 140px solid #000066;
+ 
+ 
+}
+
+#monkey-Fool img {
+ width: 250px;
+ height: 150px;
+ margin: 0 0 1em 1em;
+ padding: 1px;
+ border: 1px solid #333;
+ float: right;
+ 
+}
+
+#footer{
+ background: #ccc url(images/banner.gif)
+	no-repeat;
+ height: 50px;
+}
+
+
+

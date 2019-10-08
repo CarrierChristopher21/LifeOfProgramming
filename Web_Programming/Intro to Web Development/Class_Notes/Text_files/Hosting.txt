@@ -1,0 +1,23 @@
+	- Hosting
+			- Hosting on your own
+					- Pros
+							- Control
+					- Cons
+							- Expense
+			- Hosting with an ISP
+					- Pros
+							- Cheap
+					- Cons
+							- Loss of control
+
+	- Decision Making Process
+			- Connection Speed
+			- Hardware concerns
+			- Security and Stability
+			
+	- Things to consider for an ISP
+			- 24 hour support
+			- Daily backups
+			- Traffic Volume
+			- Bandwidth and Content Restrictions
+			- 
