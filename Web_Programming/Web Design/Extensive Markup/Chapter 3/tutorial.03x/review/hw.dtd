@@ -1,0 +1,24 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Review Assignment
+
+   Hardware list DTD
+   Author: Chris Carrier
+   Date:   4/12/12
+
+   Filename:         hw.dtd
+   Supporting Files: 
+-->
+
+	<!ELEMENT hlist (hardware+)>
+
+	<!ELEMENT hardware (model, manufacturer, mPrice)>
+	
+	<!ELEMENT model (#PCDATA)>
+	<!ATTLIST model MID ID #REQUIRED>
+	<!ATTLIST model category (Camera | Scanner | Tablet) #REQUIRED>
+	<!ATTLIST model sBundle IDREF #IMPLIED>
+	
+	<!ELEMENT manufacturer (#PCDATA)>
+	<!ELEMENT mPrice (#PCDATA)>

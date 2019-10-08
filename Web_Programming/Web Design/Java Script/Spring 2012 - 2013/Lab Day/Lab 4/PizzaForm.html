@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>PIZZA ORDER FORM</title>
+		<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+		<meta http-equiv="Content-Language" content="en-us" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	</head>
+	<body>
+		<h1>Welcome to CyberPizza</h1>
+		<p>Enter your order.</p>
+		<form>
+			<p>Your Name: <input type="text" name="name"> </p>
+			<p>Your Address: <input type="text" name="address"> </p>
+			<p>Number of Pies: <input type="text" name="quantity"> </P>
+			<P>Email Address: <input type="text" name="email"> </P>
+			<p>Pickup Time: <input type="text" name="pickup"> </p>
+			<p>Pizza Size: </p>
+			
+			<ul>
+				<li><input type="radio" name="size" value="6">6-inch ($6.00)</li>
+				<li><input type="radio" name="size" value="8">8-inch ($8.00)</li>
+				<li><input type="radio" name="size" value="10">10-inch ($10.00)</li>
+				<li><input type="radio" name="size" value="12">12-inch ($12.00)</li>
+				<li><input type="radio" name="size" value="14">14-inch ($14.00)</li>
+				<li><input type="radio" name="size" value="Sheet">Sheet ($16.00)</li>
+			</ul>
+				<P>Toppings: $1.00 A Piece</p>
+				<p>
+					<input type="checkbox" name="top1" value="Pepperoni"> Pepperoni
+					<input type="checkbox" name="top2" value="Onions"> Onions
+					<input type="checkbox" name="top3" value="Mushrooms"> Mushrooms
+					<input type="checkbox" name="top4" value="Green Peppers"> Green 
+						Peppers</br>
+					<input type="checkbox" name="top5" value="Truffles"> Truffles
+					<input type="checkbox" name="top6" value="Arugula"> Arugula
+					<input type="checkbox" name="top7" value="Anchovies"> Anchovies
+					<input type="checkbox" name="top8" value="Sausage"> Sausage </br>
+					<input type="checkbox" name="top9" value="Artichokes"> Artichokes
+					<input type="checkbox" name="top10" value="Fennel"> Fennel
+					<input type="checkbox" name="top11" value="Shallots"> Shallots
+					<input type="checkbox" name="top11" value="Garlic"> Garlic
+				</p>
+				<p><em>(you can select multiple toppings)</em></p>
+				<p>
+					<input type="submit" value="Submit Order Now">
+					<input type="reset"> 
+				</p>
+				
+				<textarea name="receipt" rows="20" cols="20"></textarea> 
+		</form>
+	</body>
+</html>

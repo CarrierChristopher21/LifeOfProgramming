@@ -1,0 +1,121 @@
+								Final Project
+
+								
+								
+								 
+
+Game Rules:
+
+<!--[if !supportLists]-->•     <!--[endif]-->Two players race to reach 100 points. Each turn, 
+	a player repeatedly rolls a die until either a 1 ("pig") is rolled or the player holds and scores 
+	the sum of the rolls. Die images are available for download on Angel. check
+
+<!--[if !supportLists]-->•     <!--[endif]-->Starting player will alternate between human and computer 
+	with the human being the first player of the series. check
+
+<!--[if !supportLists]-->•     <!--[endif]-->At any time during a player's turn, the player is faced 
+	with two decisions: check
+
+<!--[if !supportLists]-->•     <!--[endif]-->roll - If the player rolls a 
+
+			<!--[if !supportLists]-->•     <!--[endif]-->1: the player scores nothing and it becomes 
+					the opponent's turn. check
+
+			<!--[if !supportLists]-->•     <!--[endif]-->2 - 6: the number is added to the player's 
+			turn total and the player's turn continues. check
+			
+
+<!--[if !supportLists]-->•     <!--[endif]-->hold - The turn total is added to the player's score and 
+	it becomes the opponent's turn. check
+
+<!--[if !supportLists]-->•     <!--[endif]-->The computer plays a "Keep Pace and End Race" policy as 
+	follows: Let the computer's hold value = 21 + round((user score - computer score) / 8). 
+	If either player has 71 points or more, or if the turn total is less than the hold value, then roll. 
+	Otherwise, hold. check i hope it works 
+
+	
+	
+Visual Components:
+
+<!--[if !supportLists]-->•     <!--[endif]-->Buttons for Roll and Hold --- check
+
+<!--[if !supportLists]-->•     <!--[endif]-->Ability to display --- it doesnt want to run
+
+<!--[if !supportLists]-->•     <!--[endif]-->Computer Score --- check
+
+<!--[if !supportLists]-->•     <!--[endif]-->Player Score --- check
+
+<!--[if !supportLists]-->•     <!--[endif]-->Turn Total --- check
+
+<!--[if !supportLists]-->•     <!--[endif]-->Dice image --- check
+
+
+Platform Requirements:
+
+<!--[if !supportLists]-->•     <!--[endif]-->This project should be XHTML1 Strict compliant. -- check
+
+<!--[if !supportLists]-->•     <!--[endif]-->All presentation rules should be contained in an external 
+style sheet. --- check
+
+<!--[if !supportLists]-->•     <!--[endif]-->All content should comply with XHTML1 strict rules. Check 
+here for details http://www.w3.org/TR/xhtml1/#strict. Also use XHTML validation software. --- check
+
+
+--------------------------------------------------------------------------------------------------------
+	Summary: Implement a web based implementation for the game of Pig where the user plays a 
+		succession of games against a computer player.
+
+	 
+
+		Game Rules:
+
+		•     Two players race to reach 100 points. Each turn, a player repeatedly rolls a 
+				die until either a 1 ("pig") is rolled or the player holds and scores the 
+				sum of the rolls. Die images are available for download on Angel.
+
+		•     Starting player will alternate between human and computer with the human being 
+				the first player of the series.
+
+		•     At any time during a player's turn, the player is faced with two decisions:
+
+		•     roll - If the player rolls a
+
+		•     1: the player scores nothing and it becomes the opponent's turn.
+
+		•     2 - 6: the number is added to the player's turn total and the player's turn 
+				continues.
+
+		•     hold - The turn total is added to the player's score and it becomes the 
+				opponent's turn.
+
+		•     The computer plays a "Keep Pace and End Race" policy as follows: 
+				Let the computer's hold value = 21 + round((user score - computer score) / 8). 
+				If either player has 71 points or more, or if the turn total is less than the 
+				hold value, then roll. Otherwise, hold.
+
+		Visual Components:
+
+		•     Buttons for Roll and Hold
+
+		•     Ability to display
+
+		•     Computer Score
+
+		•     Player Score
+
+		•     Turn Total
+
+		•     Dice image
+
+		Platform Requirements:
+
+		•     This project should be XHTML1 Strict compliant.
+
+		•     All presentation rules should be contained in an external style sheet.
+
+		•     All content should comply with XHTML1 strict rules. Check here for details 
+				http://www.w3.org/TR/xhtml1/#strict. Also use XHTML validation software.
+				
+				
+				
+				

@@ -1,0 +1,74 @@
+<!--<td class="sites" >
+						 <div>
+							<h3 class="my-sites">Site Links!</h3>
+						</div>
+						<div id="navigation">
+							<div class="drop-right">
+								<ul>
+									<li class="my-sites"><a href="Modern_Warefare_2_Videos.html">Modern Warefare 2 Video's!</a>
+										<ul>
+											<li class="internal-sites"><a href="Modern_Warefare_2_Videos.html#Episode_1">Video For Top Ten Kills: Modern Warfare 2, Episode 1</a></li>
+											<li class="internal-sites"><a href="Modern_Warefare_2_Videos.html#Comments">Comments</a></li>
+										</ul>					
+									</li>
+									<li class="my-sites"><a href="entertainment.html">How Video Games Keep You Entertained!</a>
+										<ul>
+											<li class="internal-sites"><a href="entertainment.html#Episode_2">Video For Top Ten Kills: Modern Warfare 2, Episode 2</a></li>
+											<li class="internal-sites"><a href="entertainment.html#Comments">Comments</a></li>
+										</ul>					
+									</li>
+									<li class="my-sites"><a href="outoftrouble.html">How Video Games Keep You Outta Trouble!</a>
+										<ul>
+											<li class="internal-sites"><a href="outoftrouble.html#Episode_6">Video For Top Ten Kills: Modern Warfare 2, Episode 6</a></li>
+											<li class="internal-sites"><a href="outoftrouble.html#Comments">Comments</a></li>
+										</ul>
+									</li>
+									<li class="my-sites"><a href="Primary+SecondaryGunshome.html">Modern Warefare 2 Primary and Secondary Guns Home!</a>
+										<ul>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Assault_Rifle_Classes">Assault Rifle Classes</a></li>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Sub_Machine_Gun_Classes">Sub Machine Gun Classes</a></li>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Light_Machine_Gun_Classes">Light Machine Gun Classes</a></li>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Sniper_Rifle_Classes">Sniper Rifle Classes</a></li>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Riot_Shield_Class">Riot Shield Class</a></li>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Machine_Pistol_Classes">Machine Pistol Class</a></li>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Shotgun_Classes">Shotgun Classes</a></li>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Handgun_Classes">Handgun Classes</a></li>
+											<li class="internal-sites"><a href="Primary+SecondaryGunshome.html#Launchers_Classes">Launchers Classes</a></li>
+										</ul>			
+									</li>
+									<li class="my-sites"><a href="GunAttachmentsandEquipments.html">Modern Warefare 2 Gun Attachments and Equipments!</a>
+										<ul>
+											<li class="internal-sites"><a href="GunAttachmentsandEquipments.html#Equipments">Equipments</a></li>
+											<li class="internal-sites"><a href="GunAttachmentsandEquipments.html#Gun_Attachments">Gun Attachments</a></li>
+											<li class="internal-sites"><a href="GunAttachmentsandEquipments.html#Comments">Comments</a></li>
+										</ul>	
+									</li>	
+									<li class="my-sites"><a href="SpecialOpsDescription.html">Special Ops Description!</a>
+										<ul>
+											<li class="internal-sites"><a href="SpecialOpsDescription.html#Special_Ops_Menu_Options">Special Ops Menu Options</a></li>
+											<li class="internal-sites"><a href="SpecialOpsDescription.html#Special_Ops_Difficulties">Special Ops Difficulties</a></li>
+											<li class="internal-sites"><a href="SpecialOpsDescription.html#Special_Ops_Categories">Special Ops Categories</a></li>
+											<li class="internal-sites"><a href="SpecialOpsDescription.html#Special_Ops_Alpha_Game_Descriptions">Special Ops Alpha Game Descriptions</a></li>
+											<li class="internal-sites"><a href="SpecialOpsDescription.html#Special_Ops_Bravo_Game_Descriptions">Special Ops Bravo Game Descriptions</a></li>
+											<li class="internal-sites"><a href="SpecialOpsDescription.html#Special_Ops_Delta_Game_Descriptions">Special Ops Delta Game Descriptions</a></li>
+											<li class="internal-sites"><a href="SpecialOpsDescription.html#Special_Ops_Echo_Game_Descriptions">Special Ops Echo Game Descriptions</a></li>
+											<li class="internal-sites"><a href="SpecialOpsDescription.html#Comments">Comments</a></li>
+										</ul>			
+									</li>
+									<li class="my-sites"><a href="http://www.chris-gaming-info.com/Guest_Book/gbook.php">Guest Book! Please Leave Your Comment!</a></li>
+								</ul>	
+							</div>
+					
+							<div>
+								<h3 class="external-sites">Video Game Links!</h3>
+							</div>
+								<ul>
+									<li class="external-sites"><a href="http://gamebattles.com/" target="_blank">Major League Gaming: Where Gamers Meet Their Match</a></li>
+									<li class="external-sites"><a href="http://us.playstation.com/" target="_blank">The Home of Playstation Network and Their Systems</a></li>
+									<li class="external-sites"><a href="http://www.xbox.com/en-US/" target="_blank">The Home of XBOX Live and Their Systems</a></li>
+									<li class="external-sites"><a href="http://www.nintendo.com/" target="_blank">The Home of Nintendo and Their Systems</a></li>
+									<li class="external-sites"><a href="http://www.gamesradar.com/cheats" target="_blank">A Place to Get Cheats and News About New Releases</a></li>
+									<li class="external-sites"><a href="http://www.modernwarfare247.com/weapons" target="_blank">A place to get more info on Modern Warefare 2 Guns</a></li>
+								</ul>	
+						</div>	
+					</td>-->

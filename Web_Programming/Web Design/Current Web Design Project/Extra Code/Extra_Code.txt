@@ -1,0 +1,24 @@
+
+			<div class="sitelock-Attracta">
+				<img src="//shield.sitelock.com/shield/chris-gaming-info.com" id="sl_shield_image" style="cursor: pointer;" alt = "SiteLock" /><script id="sl_shield" type="text/javascript" src="//shield.sitelock.com/sitelock.js" language="javascript"></script>
+				<!-- BEGIN Attracta | Site 664837 | Badge 2 -->
+				<script type="text/javascript" src="http://cdn.attracta.com/badge/js/664837/core.js"></script><a href="http://cdn.attracta.com/badge/verify/664837.html"><img alt="Increase your website traffic with Attracta.com" style="border:0px" src="http://cdn.attracta.com/badge/img/664837/2.png" /></a>
+				<!-- END Attracta -->
+			</div>
+			
+			<div class="visit-counter-clock">
+				<img src="/cgi-sys/Count.cgi?df=Special_Ops_Description.dat|display=Counter|ft=6|md=10|frgb=0;0;0|dd=A">   
+				<img src="/cgi-sys/Count.cgi?df=chrisgam.dat|display=Clock|timezone=GMT-0500|tformat=12|ft=6|md=10|frgb=0;0;0|dd=A"> 
+				<img src="/cgi-sys/Count.cgi?df=chrisgam.dat|display=Date|dformat=MMDDYY|ft=6|md=10|frgb=0;0;0|dd=A">
+			</div>
+			
+			<div class="countdown-clock">
+				<applet code="countdown.class" CODEBASE="http://chris-gaming-info.com/java-sys" width="203.9" height="21.8">
+					<param name="font" value="lcdb0">
+					<param name="year" value=2012>
+					<param name="month" value=3>
+					<param name="day" value=26>
+					<param name="hour" value=12>
+				</applet> 
+					
+			</div>

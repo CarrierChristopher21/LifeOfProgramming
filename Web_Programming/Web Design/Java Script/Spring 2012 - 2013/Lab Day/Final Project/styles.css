@@ -1,0 +1,65 @@
+/* This is a comment */
+/* Style Sheet for Pig Dice Game Design Code! */
+
+table.dicefun{
+ margin-top:20px;
+ margin-left:363px;
+}
+
+img.die1{
+ border:0;
+ height: 100px;
+ width: 40%;
+ text-align:left;
+ margin-top: 0px;
+ margin-right: 10px;
+ margin-bottom: 0px;
+ margin-left: 10px;
+}
+
+img.die2{
+ border:0;
+ height: 100px;
+ width: 40%;
+ text-align:right;
+ margin-top: 0px;
+ margin-right: 10px;
+ margin-bottom: 0px;
+ margin-left: 10px;
+}
+
+td.dies{
+ text-align:center;
+}
+
+h1.bet{
+ text-align:center;
+}
+
+h1.choice{
+ text-align:center;
+}
+
+table.buttons{
+ margin-left:363px;
+}
+
+td.roll{
+ text-align:center;
+ width:40%
+}
+
+td.hold{
+ text-align:center;
+ width:40%;
+}
+
+
+
+
+
+
+
+
+
+

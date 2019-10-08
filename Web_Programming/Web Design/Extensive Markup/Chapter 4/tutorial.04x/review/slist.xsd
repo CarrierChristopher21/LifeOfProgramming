@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Review Assignment
+
+   Study list schema
+   Author: Chris Carrier
+   Date:   4/20/12
+
+   Filename:         slist.xsd
+   Supporting Files: 
+-->
+
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+				targetNamespace="http://uhosp/studies/ns"
+				xmlns:std="http://uhosp.edu/studies/ns">
+				
+		<xs:element name="studies" >
+			<xs:simpleType name="studyIDType">
+				<xs:restriction base="xs:ID"> 
+					<xs:pattern value="CCC-\d{3}-\d{2}" />
+				</xs:restriction>
+			</xs:simpleType>	
+			
+			<xs:simpleType name="genderType">
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="female" />
+					<xs:enumeration value="male" />
+					<xs:enumeration value="and all" />
+				</xs:restriction>
+			</xs:simpleType>
+			
+			<xs:simpleType name="phaseType">
+				<xs:restriction base="xs:positiveInteger">
+					<xs:naxInclusive value="3" />
+				</xs:restriction>
+			</xs:simpleType>
+			
+			<xs:group name="studyElements" >
+				<xs:sequence>
+					<xs:element name="title" type="xs:string" />
+					<xs:element name="summary" type="xs:string" maxOccurs="0"/>
+					<xs:element name="pi" type="xs:string" />
+					<xs:element name="startDate" type="xs:date" />
+					<xs:element name="stopDate" type="xs:date" />
+					<xs:element name="enrollment" type="xs:nonNegativeInteger" />
+					<xs:element name="gender" type="xs:genderType" />
+					<xs:element name="phase" type="xs:phaseType" />
+					<xs:element name="site" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+				</xs:sequence>
+			</xs:group>
+			
+			<xs:complexType name="studyType">
+					<xs:group ref="studyElements" />
+					<xs:attribute name="studyID" type="studyIDType" />
+			</xs:complexType>
+			
+			<xs:complexType name="std:studies">
+				<xs:sequence>
+					<xs:element name="study" type="studyType" minOccurs="1" maxOccurs="unbounded" />
+				</xs:sequence>
+			</xs:complexType>
+							
+		</xs:element>
+	</xs:schema>

@@ -1,0 +1,10 @@
+New York Yankees	13914
+San Francisco Giants	13262
+Chicago Cubs	12479
+Atlanta Braves	12203
+Detroit Tigers	12050
+Boston Red Sox	11671
+Cincinnati Reds	11533
+Philadelphia Phillies	11457
+Oakland Athletics	11408
+Cleveland Indians	11338

@@ -1,0 +1,34 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 1
+
+   PBA team roster DTD
+   Author: Chris Carrier
+   Date:   4/13/12
+
+   Filename:         teams.dtd
+   Supporting Files: 
+-->
+
+	<!ELEMENT League (Team+)>
+
+	<!ELEMENT Team (Team_Name, City, Logo, Players)>
+	<!ELEMENT Team_Name (#PCDATA)>
+	<!ELEMENT City (#PCDATA)>
+	<!ELEMENT Logo EMPTY>
+	
+	<!ELEMENT Players (Player | Player | Player | PLayer | Player)>
+	
+	<!ELEMENT Player (#PCDATA)>
+	
+	<!ATTLIST Player Position (Centers | Forward | Guard)>
+	<!ATTLIST League LName CDATA>
+	<!ATTLIST Logo (Source?) ENTITY>
+	<!ATTLIST Player Position(Centers | Forward | Guard)>
+	<!ATTLIST Player (PPG | RPG | Assists ) CDATA>
+
+	<!NOTATION BMP SYSTEM "image/bmp">
+	
+	
+	

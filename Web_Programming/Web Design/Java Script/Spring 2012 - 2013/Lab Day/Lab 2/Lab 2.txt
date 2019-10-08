@@ -1,0 +1,62 @@
+
+Write a number guesser program. Human vs. Computer
+	
+	•As the human player of this game your job is to think of a number between 1 and 100 in 
+	your head. Do not enter the number you are thinking of into the program at any time!
+
+	•The computer will then make attempts to guess the number and display the guesses to the 
+	human.
+
+	•The human will respond to the guesses by entering:
+		◦“C” = Correct
+		◦“L” = Low
+		◦“H” = High
+
+		◦Be sure that your program can handle both lower and upper case letters
+
+
+	•The computer will then continue guessing numbers until the correct number has been 
+	guessed.
+
+	•Once the correct number has been guessed, the program must ask the user if they would 
+	like to play again. If the user answers "yes", the entire process must begin again. 
+	Note: This should happen without having to reload the page.
+
+	•Ok, here is the challenge. The computer MUST be able to guess the correct number in 7 or 
+	fewer guesses
+		◦You can use the “divide and conquer” binary approach which will guaranteed get the 
+		correct answer in log2(100) guesses.
+
+		◦Divide the range of potential guesses by 2. This number will be the computer's guess.
+
+		◦Then modify your range of random numbers based on the user's response of Low or High.
+
+
+ 
+ 
+ 
+	Project 2
+ 
+Create a web page that will calculate shipping charges for an order 
+
+	•The user should be able to enter the purchase price in a text field
+	•In an external script file write a function called calcShipping() that will perform the 
+	calculations based on the following criteria: 
+		◦The text field should be validated to ensure that it is not blank and numeric
+		◦Minimum shipping and handling is $1.50 for any purchase less than $25.00
+		◦For orders between $25.00 and $75.00 add 10% to the total purchase but DO NOT include
+			the $1.50
+		◦For orders greater than $75.00 add 15% to the total purchase but DO NOT include the 
+			$1.50
+
+	•Add another text field to the web page. This field will be for the user to enter a 
+	"coupon" code 
+		◦A coupon is valid if: 
+			■It is five characters in length
+			■It begins with an "X"
+			■Research the JavaScript String Object for built in functions to process strings
+
+		◦If the coupon is valid deduct 5% from the shipping charge
+
+	•Display the purchase price, the shipping charges and the order total as a level one 
+	heading on the web page

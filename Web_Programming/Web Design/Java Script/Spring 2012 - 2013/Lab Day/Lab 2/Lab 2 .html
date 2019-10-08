@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+	<title>Lab 2 Due Monday</title>
+	<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="Content-Language" content="en-us" />
+	
+	
+	<script type="text/javascript">
+		var questionanswer = 'y';
+		
+		while(questionanswer == 'y' || questionanswer == 'Y')
+		{
+			var answer1;
+			var computerHigh = 100;
+			var computerLow = 1;
+			var computerGuess = 50; //variable to store the input from human
+			var numberGuess = 0; 
+			
+			//prompt Computer for guess
+			alert("Think of any number between 0 - 100!")
+			answer1 = prompt("Is the computer's guess " +  computerGuess + " C is correct, H is High, L is Low!" );
+			
+			if(answer1 == 'h' || answer1 == 'H')
+			{
+				computerHigh = computerGuess;
+				computerGuess = Math.round(((computerHigh - computerLow) / 2) + computerLow);//1 - 49 Also means go Down
+				
+						
+			}
+			//Low
+			else if(answer1 == 'l' || answer1 == 'L')
+			{
+					
+				//document.writeln("<h1>The Computer's guess is to Low . . . Computer Guess Again</h1>");
+				computerLow = computerGuess;
+				computerGuess = Math.round(((computerHigh - computerGuess) / 2) + computerGuess);//51-100 Also means go Up
+										
+				//numberGuess = Math.LOG2(100);
+			}
+			//computerLow = computerGuess;
+			
+
+			while(answer1 == 'h' || answer1 == 'H' || answer1 == 'l' || answer1 == 'L')
+			{
+				//determine high, low or correct
+				if(answer1 == 'h' || answer1 == 'H')
+				{
+					document.writeln("<h1>The Computer's guess is to High . . . Computer Guess Again</h1>");
+					computerHigh = computerGuess;
+					computerGuess = Math.round(((computerHigh - computerLow) / 2) + computerLow);//1 - 49 Also means go Down
+					
+						
+				}
+				else if(answer1 == 'l' || answer1 == 'L')
+				{
+					
+					document.writeln("<h1>The Computer's guess is to Low . . . Computer Guess Again</h1>");
+					computerLow = computerGuess;
+					computerGuess = Math.round(((computerHigh - computerLow) / 2) + computerLow);//51-100 Also means go Up
+					
+					//numberGuess = Math.LOG2(100);
+
+
+				}
+				
+				//Prompt for answer
+				++numberGuess;
+				answer1 = prompt("Is the computer's guess " +  computerGuess + " C is correct, H is High, L is Low!" );
+			}
+			if(answer1 == 'c' || answer1 == 'C')
+			{
+				alert("The computer guess was " + computerGuess + " So the computer is Correct!! "); 
+				document.writeln("<h1>The Computer's guess is CORRECT!</h1>");
+				questionanswer = prompt("The Computer guessed Correct! Would you like to play again? (Y for Yes, N for No" );
+			}
+			
+			 
+			
+		}// end of while loop
+	
+	
+	</script>
+	
+	</head>
+		<body>
+		<!--YOUR XHTML IN HERE-->
+		
+		
+		
+
+		</body>
+</html>
+
+<!--display a message to the user
+		alert("This is an alert box . . . consider yourself alerted! ");
+		
+		//ask the user for some input
+		var input = prompt("Enter your age? ");
+		
+		//Valiadate the input
+		if(!input || isNaN(input) || input < 0)
+		{
+			alert("INVALID INPUT");
+			
+		}
+		else
+		{
+			var root = Math.sqrt(input);
+			alert("The square root of " + input + " is " + root);
+			
+		}
+		
+		if(input <= 21)
+		{
+			alert("You can't come in! ");
+			alert("Goodbye Redirecting you now! ");
+			window.location = "http://news.google.com";
+		
+		}
+		
+		//ask the user a Yes or No question
+		if(confirm("Are you sure you want to do that? "))
+			alert("You said YES! ");
+		else
+			alert("You said NO!");-->

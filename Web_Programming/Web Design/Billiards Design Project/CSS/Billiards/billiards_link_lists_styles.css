@@ -1,0 +1,79 @@
+	/* Links & Lists */
+
+ /* Default Link Code */
+a:link {color:white;}
+a:visited  {color:#339900;}
+a:active   {color:#FF3300;}
+a:hover {color:red;}
+
+ /* Center */
+a.center:link {color:white;}
+a.center:visited{color:Magenta;}
+a.center:active   {color:#FF3300;}
+a.center:hover {color:red;}
+
+ /* Comment Box */
+a.comment-box:link {color:white;}
+a.comment-box:visited{color:Magenta;}
+a.comment-box:active   {color:#FF3300;}
+a.comment-box:hover {color:red;}
+
+	/* ul,ol,li */
+
+	/* li index */
+
+ /* Name of my sites */
+li.my-billiards-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+ /* li Internal Sites */
+li.billiard-internal-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+ /* billiards description */	
+li.billiard-description{
+ list-style-type: none;
+ margin-bottom:20px;
+ margin-top:5px;
+ 
+}
+
+ /* li billiards */
+li.billiards{
+ list-style-type: none;
+ margin-left:-47px;
+}
+
+	/* Navigation */
+ 
+ /* Navigation Id */
+#billiards-navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+
+ } 
+
+	/* hr */
+
+ /* Main Seperation Code */
+hr.seperation{
+ width: 50%;
+ color:white;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom:20px;
+}
+
+ /* Listing Seperation */
+hr.li-seperation{
+ width:70%;
+ color:white;
+ text-align:left;
+}

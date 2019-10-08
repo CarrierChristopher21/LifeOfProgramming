@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Review Assignment
+
+   Products from Pixal Inc.
+   Author: Chris Carrier
+   Date:   4/12/12
+
+   Filename:         pixal.xml
+   Supporting Files: hw.dtd, hwlist.xml, sw.dtd, swlist.xml
+ 
+-->
+	<!DOCTYPE product_list 
+	[
+		<!ELEMENT product_list (hlist, slist)>
+		
+		<!ENTITY % hw_list SYSTEM "hwlist.xml">
+		%hw_list;
+		
+		<!ENTITY % sw_list SYSTEM "swlist.xml">
+		%sw_list;
+		
+		<!-- hardware list DTD -->
+		<!ENTITY % hw_dtd SYSTEM "hw.dtd">
+		%hw_dtd;
+		
+		<!-- software list DTD -->
+		<!ENTITY % sw_dtd SYSTEM "sw.dtd">
+		%sw_dtd;
+		
+		
+	]>
+
+	<product_list>
+		
+		
+	</product_list>

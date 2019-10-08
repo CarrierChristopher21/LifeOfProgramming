@@ -1,0 +1,39 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Drop Down! */
+
+/* div */
+
+div.drop-right {
+	border:0px solid black;
+	float:left;
+	background-color:black;
+	color:white;
+	margin-top:-20px
+}
+
+div.drop-right ul{
+    border:0px solid black;
+	margin-bottom:20px;
+
+}
+	
+div.drop-right li{
+    border:0px solid black;
+    list-style-type:none;
+	float:left;
+	position:relative;
+	padding:0 .5em 0 0;
+}
+
+
+div.drop-right li ul{
+	position:abosolute;
+	width:8em;
+	display:none;
+}
+
+div.drop-right li:hover ul{
+	display:block;
+
+}
+

@@ -1,0 +1,25 @@
+.base{margin:0 auto 0 auto;background-color:#FFFFFF;
+	  background-image:url("../Images/wayBackground.png");}
+	.everything{margin: 0 auto 0 auto;bottom:0;width:840px;height:820px;
+				background-image:url("../Images/background.png");}
+		#wallpaper{position:fixed;top:0;bottom:0;width:820px;z-index:96;}
+		#bannerShadow{padding:38px 20px 0 25px;z-index:98;}
+		#bannerImg{position:fixed;margin:30px 20px 0 20px;z-index:98;}
+
+			#uScore{position:fixed;margin: 160px 0px 0px 50px;z-index:100;border:solid 2px;opacity:.9;
+					border-color:#1032bd;background-color:#407EFF;padding:5px 5px 5px 5px;min-width:200px;}
+			#turnTotal{position:fixed;margin: 150px 0px 0px 315px;z-index:100;border:solid 2px;opacity:.9;
+					border-color:#1032bd;background-color:#704DAA;padding:5px 5px 5px 5px;min-width:200px;}
+			#cScore{position:fixed;margin: 160px 0px 0px 580px;z-index:100;border:solid 2px;opacity:.9;
+					border-color:#1032bd;background-color:#C11B17;padding:5px 5px 5px 5px;min-width:200px;}
+			#status{position:fixed;margin: 380px 0px 0px 200px;z-index:100;border:solid 2px;opacity:.9;
+					border-color:#1032bd;background-color:#407EFF;padding:5px 5px 5px 5px;min-width:400px;}
+			#die{position:fixed;margin: 235px 0px 0px 370px;z-index:100;opacity:.85;}
+			
+			
+			#rollBtn{position:fixed;margin: 528px 0px 0px 97px;z-index:100;}
+			#rollDis{position:fixed;margin: 528px 0px 0px 97px;z-index:99;opacity:.8;}
+			#holdBtn{position:fixed;margin: 528px 0px 0px 370px;z-index:100;}
+			#holdDis{position:fixed;margin: 528px 0px 0px 370px;z-index:99;opacity:.8;}
+			#replayBtn{position:fixed;margin: 528px 0px 0px 640px;z-index:100;}
+			#replayDis{position:fixed;margin: 528px 0px 0px 640px;z-index:99;opacity:.8;}

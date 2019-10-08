@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Review Assignment
+
+   Laser4C Downloadable Files
+
+   Filename:         files.xml
+   Supporting Files: 
+-->
+
+   <dwnld:files id="files_pr205">
+      <dwnld:file>
+         <dwnld:name>Laser4C Driver</dwnld:name>
+         <dwnld:date>13 Feb 2008</dwnld:date>
+         <dwnld:size>13 MB</dwnld:size>
+         <dwnld:rev>2.1</dwnld:rev>
+         <dwnld:item>jelaser4crev21.exe</dwnld:item>
+      </dwnld:file>
+      <dwnld:file>
+         <dwnld:name>Laser4C Printing System</dwnld:name>
+         <dwnld:date>21 Nov 2007</dwnld:date>
+         <dwnld:size>82 MB</dwnld:size>
+         <dwnld:rev>4.3</dwnld:rev>
+         <dwnld:item>jeprintsys43.exe</dwnld:item>
+      </dwnld:file>
+      <dwnld:file>
+         <dwnld:name>Laser4C Plug and Play Bundle</dwnld:name>
+         <dwnld:date>28 Sep 2007</dwnld:date>
+         <dwnld:size>13 MB</dwnld:size>
+         <dwnld:rev>5.6</dwnld:rev>
+         <dwnld:item>jepnp56.exe</dwnld:item>
+      </dwnld:file>
+      <dwnld:file>
+         <dwnld:name>Laser4C Firmware Update</dwnld:name>
+         <dwnld:date>21 Feb 2008</dwnld:date>
+         <dwnld:size>1.2 MB</dwnld:size>
+         <dwnld:rev>20080221</dwnld:rev>
+         <dwnld:item>jelaserfw6.exe</dwnld:item>
+      </dwnld:file>
+   </dwnld:files>

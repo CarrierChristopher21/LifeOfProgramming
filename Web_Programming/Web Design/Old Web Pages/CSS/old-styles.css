@@ -1,0 +1,483 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Design Code! */
+
+/* Body */
+body {
+ background-color:blue;
+ color:black; 
+ font-family: Arial, Helvetica, Sans-Serif;
+ border-color:white;
+ margin:20px;
+ 
+}
+
+/* p */
+p.description{
+ margin-left:10px;
+ margin-right:8px;
+ margin-bottom:20px;
+ padding:10px;
+ 
+}
+
+/* Headers */
+h3.comments{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ vertical-align:top;
+ margin-bottom:20px;
+}
+
+h2.title {
+ color:black;
+ text-align:center;
+  
+}
+
+h2.guns{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+ 
+}
+
+h2.description{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-right:10px;
+ margin-left:10px;
+ margin-bottom:20px;
+ 
+}
+
+h3.guns{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+h3.sites{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+ 
+}
+
+h3.description {
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+ 
+}
+
+/* Table */
+table.body{
+ width:100%;
+ border:2px solid white;
+ border-collapse: collapse;
+
+
+}
+
+table.assault{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+  
+}
+
+table.sub-machine{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+  
+}
+
+table.light-machine{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+ 
+}
+
+table.sniper-rifles{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+
+}
+
+table.riot-shield{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 30%;
+ margin-right: 30%;
+ margin-bottom:20px;
+ width:40%;
+ border:2px solid white;
+ border-spacing:0px;
+ 
+}
+
+table.machine-pistol{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+ 
+}
+
+table.shotgun{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+ 
+}
+
+table.handgun{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+
+}
+
+table.launchers{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+ 
+}
+
+
+
+/* img */
+img.guns{
+ border:0;
+ padding:10px;
+ 
+}
+
+img.visit-counter{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+ position:absolute;
+}
+
+
+}
+
+/* tr */
+
+
+
+/* td */
+td.title{
+ color:black;
+ background-color:blue;
+ text-align:center;
+ border:2px solid white;
+ border-spacing:2px;
+
+}
+
+td.sites{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+ 
+}
+
+td.center{
+ color:black;
+ background-color:blue;
+ text-align:left;
+ vertical-align:top;
+ border:2px solid white;
+ width:54%;
+}
+
+td.information{
+ color:white;
+ background-color:black;
+ text-align: center;
+ vertical-align:top;
+ padding:5px;
+ margin-bottom:20px;
+ border:2px solid white;
+ 
+ }
+
+td.description{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+}
+
+
+
+/* Div */
+div{
+ margin-bottom:20px;
+
+}
+
+
+#navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+
+ } 
+
+div.navigation-center ul{
+ margin-left:40px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+
+
+div.navigation-description ul{
+ margin-left:25px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+ 
+div.comment{
+ margin-left:20%;
+ margin-right:20%;
+ width:60%;
+
+}
+
+div.videos{
+ margin-left:20px;
+ margin-right:20px;
+ margin-bottom:20px;
+ text-align:center;
+ vertical-align:top;
+
+}
+
+div.title{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+div.guns{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+div.top-page{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+div.comments{
+ text-align:center;
+ vertical-align:top;
+ color:black;
+ margin-bottom:20px;
+ margin-top:20px;
+ margin-left:20px;
+}
+
+div.copyright{
+ margin-bottom:20px;
+ margin-top:20px;
+ color:white;
+ text-align:center;
+ font-size:small;
+ font-style:italic;
+ font-family: Arial, Helvetica, Sans-Serif;
+}
+
+
+div.footer{
+ font-size:small;
+ font-family: Arial, Helvetica, Sans-Serif;
+ text-align:center;
+ color:white;
+ font-style:italic;
+ margin-bottom:20px;
+ 
+}
+
+div.sitelock-Attracta{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+}
+
+div.visit-counter-clock{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+}
+
+div.countdown-clock{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+
+}
+
+div.video-title{
+ text-align:center;
+ vertical-align:top;
+ margin-bottom:20px;
+
+}
+
+div.description{
+ margin-left:5px;
+ margin-right:5px;
+ line-height:130%;
+ 
+
+}
+
+
+/* Links */
+a:link {color:white;}
+a:visited  {color:#339900;}
+a:active   {color:#FF3300;}
+a:hover {color:red;}
+a.center:link {color:white;}
+a.center:visited{color:Magenta;}
+a.center:active   {color:#FF3300;}
+a.center:hover {color:red;}
+a.comment-box:link {color:white;}
+a.comment-box:visited{color:Magenta;}
+a.comment-box:active   {color:#FF3300;}
+a.comment-box:hover {color:red;}
+
+/* ul,ol,li */
+li.sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+}
+
+li.top-center{
+ margin-top:5px;
+ margin-right:8px;
+}
+
+li.center{
+ margin-top:8px;
+ margin-right:8px;
+}
+
+ul, ol.description{
+ margin-left:10px;
+ margin-right:15px
+ 
+}
+
+li.top-description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:3px;
+ list-style-type:none;
+}
+
+li.description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:8px;
+ list-style-type:none;
+}
+
+/* hr */
+hr.seperation{
+ width: 50%;
+ color:white;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom:20px;
+}
+
+hr.li-seperation{
+ width:70%;
+ color:white;
+ text-align:left;
+ 
+}
+
+
+table{
+ border-collapse:collapse;
+}
+
+
+
+
+

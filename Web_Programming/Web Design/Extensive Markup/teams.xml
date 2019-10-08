@@ -1,0 +1,61 @@
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 1
+
+   PBA team roster DTD
+   Author: Chris Carrier
+   Date:   4/13/12
+
+   Filename:         teams.dtd
+   Supporting Files: 
+-->
+
+	<!ELEMENT League (Team+)>
+	<!ATTLIST League LName CDATA #REQUIRED>
+
+	<!ELEMENT Team (Team_Name, City, Logo, Players)>
+	<!ELEMENT Team_Name (#PCDATA)>
+	<!ELEMENT City (#PCDATA)>
+	<!ELEMENT Logo EMPTY>
+	
+	<!ELEMENT Players (Player, Player, Player, PLayer, Player)>
+	
+	<!ELEMENT Player (#PCDATA)>
+	
+	<!ATTLIST Player Position (Centers | Forward | Guard) #REQUIRED>
+	<!ATTLIST League LName CDATA>
+	<!ATTLIST Logo Source ENTITY #REQUIRED>
+	<!ATTLIST Player Position(Centers | Forward | Guard)>
+	<!ATTLIST Player PPG CDATA #IMPLIED>
+	<!ATTLIST Player RPG CDATA #IMPLIED>
+	<!ATTLIST Player Assists CDATA #IMPLIED>
+	
+	<!NOTATION BMP SYSTEM "image/bmp">
+	
+
+<!--
+  Case Problem 1
+   PBA team roster DTD
+   Filename:         teams.dtd
+
+
+<!ELEMENT League (Team+)>
+<!ATTLIST League LName CDATA #REQUIRED>
+
+<!ELEMENT Team (Team_Name, City, Logo?, Players)>
+<!ELEMENT Team_Name (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Logo EMPTY>
+<!ATTLIST Logo Source ENTITY #REQUIRED>
+
+<!ELEMENT Players (Player, Player, Player, Player, Player)>
+<!ELEMENT Player (#PCDATA)>
+<!ATTLIST Player Position (Center|Forward|Guard) #REQUIRED>
+<!ATTLIST Player PPG CDATA #IMPLIED>
+<!ATTLIST Player RPG CDATA #IMPLIED>
+<!ATTLIST Player Assists CDATA #IMPLIED>
+
+<!NOTATION BMP SYSTEM "image/bmp">
+ 
+-->

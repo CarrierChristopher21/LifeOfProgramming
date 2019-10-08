@@ -1,0 +1,496 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Design Code! */
+
+/* Body */
+body {
+ background-color:blue;
+ color:black; 
+ font-family: Arial, Helvetica, Sans-Serif;
+ border-color:white;
+ margin:20px;
+ 
+}
+
+/* Table */
+table{
+ border-collapse:collapse;
+}
+
+/* p */
+p.description{
+ margin-left:10px;
+ margin-right:8px;
+ margin-bottom:20px;
+ padding:10px;
+ 
+}
+p.billiards{
+ margin-left:10px;
+ margin-right:8px;
+ margin-bottom:20px;
+ padding:10px;
+}
+p.game-description{
+ /*margin-left:10px;
+ margin-right:8px;*/
+ margin-bottom:20px;
+ margin-top:5px;
+ 
+}
+/* Headers */
+h3.comments{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ vertical-align:top;
+ margin-bottom:20px;
+}
+
+/* Title */
+h2.title {
+ color:black;
+ text-align:center;
+  
+}
+
+/* div Guns */
+div.guns{
+ text-align:center;
+ margin-bottom:20px;
+}
+/* h1 Guns */
+h1.guns{
+ color:black;
+ text-align:center;
+ margin-bottom:20px;
+ 
+}
+/* h2 Guns */
+h2.guns{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+}
+
+/* h3 Guns */
+h3.guns{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+/* Image Guns */
+img.guns{
+ border:0;
+ padding:10px;
+}
+
+/* Guns Tables */
+
+/* Assault *//*
+table.assault{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+/* Sub-Machine *//*
+table.sub-machine{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+/* Light Machine *//*
+table.light-machine{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+/* Sniper Rifle *//*
+table.sniper-rifles{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+/* Riot Shield *//*
+table.riot-shield{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 30%;
+ margin-right: 30%;
+ margin-bottom:20px;
+ width:40%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+/* Machine Pistol *//*
+table.machine-pistol{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+/* Shotgun *//*
+table.shotgun{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+/* Handguns *//*
+table.handgun{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+/* Launchers *//*
+table.launchers{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}*/
+
+
+/* div Description */
+div.description{
+ margin-left:5px;
+ margin-right:5px;
+ line-height:130%;
+}
+
+/* td Description */
+td.description{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+}
+
+/* h2 Description  */
+h2.description{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-right:10px;
+ margin-left:10px;
+ margin-bottom:20px;
+}
+
+/* h3 Description */
+h3.description {
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+}
+
+/* Sites */
+
+/* td Sites */
+td.sites{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+ 
+}
+
+/* h3 Sites  */
+h3.sites{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+}
+
+th.site-row{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+ text-align:left;
+}
+
+
+/* Table */
+
+/* Body */
+table.body{
+ width:100%;
+ border:2px solid white;
+ border-collapse: collapse;
+}
+
+
+
+
+/* img */
+
+/* Visitor Counter */
+img.visit-counter{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+ position:absolute;
+}
+
+
+
+/* div Title */
+div.title{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+/* td Title */
+td.title{
+ color:black;
+ background-color:blue;
+ text-align:center;
+ border:2px solid white;
+ border-spacing:2px;
+}
+td.billiard-pictures{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+}
+/* th Title */
+th.title{
+ color:black;
+ background-color:blue;
+ text-align:center;
+ border:2px solid white;
+ border-spacing:2px;
+ height: 100px;
+ font-size:40px;
+
+}
+
+
+/* td Center */ 
+td.center{
+ color:black;
+ background-color:blue;
+ text-align:left;
+ vertical-align:top;
+ border:2px solid white;
+ width:54%;
+}
+
+/* td Information */
+td.information{
+ color:white;
+ background-color:black;
+ text-align: center;
+ vertical-align:top;
+ padding:5px;
+ margin-bottom:20px;
+ border:2px solid white;
+ 
+ }
+
+
+/* Div */
+div{
+ margin-bottom:20px;
+}
+
+/* Navigation Id */
+#navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+
+ } 
+/* Navigation center */
+div.navigation-center ul{
+ margin-left:40px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+div.navigation-billiard-center ul{
+ margin-left:35px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+
+/* navigation description */
+div.navigation-description ul{
+ margin-left:25px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+ 
+ /* Comment */
+div.comment{
+ margin-left:20%;
+ margin-right:20%;
+ width:60%;
+
+}
+
+/* Videos */
+div.videos{
+ margin-left:20px;
+ margin-right:20px;
+ margin-bottom:20px;
+ text-align:center;
+ vertical-align:top;
+
+}
+
+
+
+/* Guns */
+
+
+/* Top page */
+div.top-page{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+/* Comments */
+/*
+div.comments{
+ text-align:center;
+ vertical-align:top;
+ color:black;
+ margin-bottom:20px;
+ margin-top:20px;
+ margin-left:20px;
+}
+*/
+/* CopyRight */
+div.copyright{
+ font-size:small;
+ font-family: Arial, Helvetica, Sans-Serif;
+ text-align:center;
+ color:white;
+ font-style:italic;
+ margin-bottom:20px;
+ /* margin-top:20px; */
+
+}
+
+/* Footer */
+div.footer{
+ font-size:small;
+ font-family: Arial, Helvetica, Sans-Serif;
+ text-align:center;
+ color:white;
+ font-style:italic;
+ margin-bottom:20px;
+ 
+}
+
+
+/* video title */
+div.video-title{
+ text-align:center;
+ vertical-align:top;
+ margin-bottom:20px;
+
+}
+/* Visit counter clock */
+/*div.visit-counter-clock{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+}*/
+
+/* SiteLock */
+/*div.sitelock-Attracta{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+}*/
+
+/* Countdown clock */
+/*div.countdown-clock{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+}*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,555 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Design Code! */
+
+ /* Body */
+body {
+ background-color:blue;
+ color:black; 
+ font-family: Arial, Helvetica, Sans-Serif;
+ border-color:white;
+ margin:20px;
+ 
+}
+
+ /* Table */
+table{
+ border-collapse:collapse;
+} 
+
+ /* Body */
+table.scenario-body{
+ width:100%;
+ border:2px solid white;
+ border-collapse: collapse;
+
+
+}
+
+	/* th */
+ 
+ /* th site-row */
+th.scenario-site-row{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+ text-align:left;
+}
+ 
+ /* th title */
+th.title{
+ color:black;
+ background-color:blue;
+ text-align:center;
+ border:2px solid white;
+ border-spacing:2px;
+ height: 100px;
+ font-size:40px;
+
+}
+
+
+	/* td */
+ 
+ /* td Center */ 
+td.scenario-center{		/* if you have color on body and here */ 
+ color:silver;	/* this will override the color of font */
+ background-color:blue;
+ text-align:left;
+ vertical-align:top;
+ border:2px solid white;
+ width:54%;
+}
+
+ /* td Description */
+td.scenario-description{
+	color: white;
+	background-color: black;
+	vertical-align: top;
+	border: 2px solid white;
+	border-spacing: 2px;
+	width: 23%;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+ /* td Information *//*
+td.information{
+ color:white;
+ background-color:black;
+ text-align: center;
+ vertical-align:top;
+ padding:5px;
+ margin-bottom:20px;
+ border:2px solid white;
+ 
+ }*/
+
+ /* td Sites *//*
+td.sites{
+ color:white;
+ background-color:black;
+ vertical-align:top;
+ border:2px solid white;
+ border-spacing:2px;
+ width:23%;
+ 
+}*/
+
+ /* td Title *//*
+td.spec-ops-title{
+ color:black;
+ background-color:blue;
+ text-align:center;
+ border:2px solid white;
+ border-spacing:2px;
+
+}*/
+
+	/* Headers */
+	
+	/* h1 */
+
+ /* h1 Title */
+h1.scenario-center-title {
+ color:silver;
+ text-align:center;
+ margin-bottom:20px;
+ text-decoration:underline;
+  
+}
+
+ /* h1 description */
+h1.scenario-description-title{
+ text-align:center;
+ color:white;
+ text-decoration:underline;
+ margin-bottom:20px;
+  
+}
+ 
+  /* h1 description */
+h1.scenario-opinion-title{
+ text-align:center;
+ color:white;
+ text-decoration:underline;
+ margin-bottom:20px;
+ font-size:25px;
+}
+	/* h2 */
+	
+ /* Center-Description h2 */
+h2.scenario-center-title{
+ color:silver;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:30px;
+ }
+
+ /* center-description h2 */
+h2.scenario-description-title{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-right:10px;
+ margin-left:10px;
+ margin-bottom:20px;
+ 
+}
+	 
+ /* h2 Title *//*
+h2.title {
+ color:white;
+ text-align:center;
+  
+}*/
+ 
+ /* h2 Description  *//*
+h2.description{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-right:10px;
+ margin-left:10px;
+ margin-bottom:20px;
+ 
+}*/
+	
+	/* h3 */
+	
+
+ /* Guns h2 *//*
+h2.guns{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+ }*/
+ 
+ /* Guns h3 *//*
+h3.guns{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+
+}*/
+
+ /* h3 Comments *//*
+h3.comments{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ vertical-align:top;
+ margin-bottom:20px;
+}*/
+
+ /* Sites h3 *//*
+h3.sites{
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+ 
+}*/
+
+ /* Description h3 *//*
+h3.description {
+ color:white;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+ 
+}*/
+
+
+ /* Visitor Counter *//*
+img.visit-counter{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+ position:absolute;
+}*/
+
+
+/* tr */
+
+	
+	/* div */
+
+ /* Div default */
+div{
+ margin-bottom:20px;
+}
+
+ /* Title */
+div.scenario-center-title{
+ text-align:center;
+ margin-bottom:30px;
+
+}
+
+div.scenario-description-title{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+ /* div Footer */
+div.scenario-footer{
+ font-size:small;
+ font-family: Arial, Helvetica, Sans-Serif;
+ text-align:center;
+ color:white;
+ font-style:italic;
+ margin-bottom:20px;
+ 
+}
+ 
+ /* Navigation center */
+div.scenario-navigation-center ul{
+ margin-left:20px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+
+ /* navigation description */
+div.scenario-navigation-description ul, ol{
+ margin-left:25px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+
+div.scenario-paypal{
+ text-align:center;
+ margin-bottom:20px;
+}
+
+ /* Top page */
+div.scenario-top-page{
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+ /* div Comments */ /*
+
+div.comment{
+ margin-left:20%;
+ margin-right:20%;
+ width:60%;
+
+}
+div.comments{
+ text-align:center;
+ vertical-align:top;
+ color:black;
+ margin-bottom:20px;
+ margin-top:20px;
+ margin-left:20px;
+}
+*/
+
+ /* div CopyRight *//*
+div.copyright{
+ margin-bottom:20px;
+ margin-top:20px;
+ color:white;
+ text-align:center;
+ font-size:small;
+ font-style:italic;
+ font-family: Arial, Helvetica, Sans-Serif;
+}*/
+
+ /* div Description *//*
+div.description{
+ margin-left:5px;
+ margin-right:5px;
+ line-height:130%;
+ 
+}*/
+
+ /* Navigation ul Id */
+#navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+
+ } 
+ 
+/* div Title *//*
+div.title{
+ text-align:center;
+ margin-bottom:20px;
+
+}*/
+
+ /* div Videos *//*
+div.videos{
+ margin-left:20px;
+ margin-right:20px;
+ margin-bottom:20px;
+ text-align:center;
+ vertical-align:top;
+
+}*/
+
+ /* video title *//*
+div.video-title{
+ text-align:center;
+ vertical-align:top;
+ margin-bottom:20px;
+
+}*/
+
+	 /* p */
+ /* p center description */
+p.scenario-center-description{
+ margin-left: 10px;
+ margin-right: 8px;
+ margin-bottom: 20px;
+ padding: 10px;
+ 
+}
+
+ /* p description */
+p.scenario-description{
+ margin-left: 10px;
+ margin-right: 8px;
+ margin-bottom: 20px;
+ padding: 10px;
+ 
+}
+ 
+	/* img */
+	
+ /* img paypal */
+img.scenario-paypal{
+ border:0;
+ padding:10px;
+ margin-top:20px;
+}
+	
+	/* input */
+	
+	/* input paypal */
+input.scenario-paypal{
+ border:0;
+ margin-top:50px;
+ }
+
+/* div SiteLock *//*
+div.sitelock-Attracta{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+}*/
+
+/* div Visit counter clock *//*
+div.visit-counter-clock{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+}*/
+
+/* div Countdown clock *//*
+div.countdown-clock{
+ text-align:center;
+ margin-bottom:20px;
+ vertical-align:top;
+
+}*/
+
+
+/* sorted from here down */
+	/* Links */
+
+ /* Default Link Code */
+a:link {color:white;}
+a:visited  {color:#339900;}
+a:active   {color:#FF3300;}
+a:hover {color:red;}
+
+ /* Center */
+a.center:link {color:white;}
+a.center:visited{color:Magenta;}
+a.center:active   {color:#FF3300;}
+a.center:hover {color:red;}
+
+ /* Comment Box */
+a.comment-box:link {color:white;}
+a.comment-box:visited{color:Magenta;}
+a.comment-box:active   {color:#FF3300;}
+a.comment-box:hover {color:red;}
+
+	/* ul, ol, li */
+	
+ /* li spec-ops-center */
+li.scenario-center{
+ margin-bottom:5px;
+ list-style-type:none;
+ 
+}
+
+ /* li center description */
+li.scenario-center-description{
+ margin-bottom:10px;
+ list-style-type:none;
+ 
+}
+
+ /* li center sites */
+li.scenario-center-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ list-style-type:none;
+ 
+}	
+ 
+ /* li Description */
+li.scenario-description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:8px;
+ list-style-type:none;
+ 
+} 
+
+ /* li Center *//*
+li.center{
+ margin-top:8px;
+ margin-right:8px;
+ 
+}*/
+ 
+ /* li Description *//*
+li.description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:8px;
+ list-style-type:none;
+}*/
+
+ /* li internal sites *//*
+li.internal-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}*/
+
+ /* li my sites *//*
+li.my-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}*/
+
+ /* li Sites *//*
+li.sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}*/
+
+ /* li Top Center *//*
+li.top-center{
+ margin-top:5px;
+ margin-right:8px;
+}*/
+
+ /* li Listing Description *//*
+ul, ol.description{
+ margin-left:10px;
+ margin-right:15px
+ 
+}*/
+
+
+
+	/* hr */
+
+ /* hr Main Seperation Code */
+hr.seperation{
+ width: 50%;
+ color:white;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom:20px;
+}
+
+ /* hr li Seperation */
+hr.li-seperation{
+ width:70%;
+ color:white;
+ text-align:left;
+ 
+}
+
+

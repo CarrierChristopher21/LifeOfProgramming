@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Jazz Warehouse Vintage Albums Schema
+   Author: Chris Carrier
+   Date:   4/23/12
+
+   Filename:         music.xsd
+   Supporting Files: 
+ 
+-->
+
+	<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+			
+			>
+		
+			<xsd:simpleType name="albumIDType">
+				<xsd:restriction base="xs:ID">
+					<xsd:pattern value="JW######" />
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="jazzType">
+				<xsd:restriction base="xs:string">
+					<xsd:enumeration value="New Orleans" />
+					<xsd:enumeration value="Swing" />
+					<xsd:enumeration value="Bebop" />
+					<xsd:enumeration value="Modern" />
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:element name="inventory" minOccurs="1" maxOccurs="unbounded" >
+				<xsd:complexType>
+					<xsd:element name="album" minOccurs="1" maxOccurs="unbounded" >
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="title" type="xsd:string" />
+								<xsd:element name="artist" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
+								<xsd:element name="tracks" type="xsd:string" />
+									<xsd:attribute name="albumID" type="albumIDType" />
+									<xsd:attribute name="category" type="jazzType" />
+								</xsd:sequence>
+							</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="tracks">
+						<xsd:complexType>
+							<xsd:element name="track" type="xsd:string" use="optional" />
+								<xsd:simpleType>
+									<xsd:attribute name="length" type="xsd:time" />
+								</xsd:simpleType>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>

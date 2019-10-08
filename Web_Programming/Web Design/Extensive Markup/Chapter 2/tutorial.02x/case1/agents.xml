@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 1
+
+   EPAC-MO List of Agents
+
+   Filename:         agents.xml
+   Supporting Files: 
+-->
+
+<ag:agents>
+   <ag:agent id="a01" list="c001,c002,c004">
+      <ag:first>Beverly</ag:first>
+      <ag:last>Kaufmann</ag:last>
+      <ag:amount>$325</ag:amount>
+   </ag:agent>
+   <ag:agent id="a02" list="c003,c005, c006">
+      <ag:first>Kevin</ag:first>
+      <ag:last>Yates</ag:last>
+      <ag:amount>$375</ag:amount>
+   </ag:agent>
+</ag:agents>

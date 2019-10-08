@@ -1,0 +1,84 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Drop Down! */
+
+/* div */
+#drop-down * {
+ margin:0;
+ padding:0;
+ 
+}
+#drop-down {
+	/*border:0px solid black;*/
+	float:left;
+	background-color:black;
+	color:white;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-decoration:underline;
+}
+/* Drop down right unlisted */
+
+#drop-down ul{
+    /*border:0px solid black;*/
+	border-left:2px solid #FFFFFF;
+	margin-bottom:5px;
+	
+	
+}
+
+#drop-down li:first-child {
+	border-left:none;
+	
+}
+#drop-down a{
+	display:block;
+	text-decoration:none;
+	
+}
+
+#drop-down  ul li ul li a{
+	display:block;
+	text-decoration:underline;
+	
+}
+ /* Drop right listing */
+#drop-down li{
+    /*border:0px solid black;*/
+    list-style-type:none;
+	float:left;
+	position:relative;
+	padding:0 .5em 0 0;
+	margin-top:5px;
+	margin-bottom:5px;
+	
+}
+
+ /* drop right listing & unlisted */
+#drop-down li ul {
+	position:relative;
+	display:none;
+	width:10em;
+	left:-1px;
+	text-decoration:underline;
+}
+
+#drop-down ul li ul li{
+	text-decoration:underline;
+}
+#drop-down li:hover ul{
+	display:block;
+	text-decoration:underline;
+}
+
+
+#drop-down li ul li{
+ width:100%;
+ /*border-right:1px solid #FFFFFF;
+ border-bottom:1px solid #FFFFFF;
+ border-left:1px solid #FFFFFF;*/
+}
+/*#drop-down li ul li:first-child{
+ border-left:1px solid #FFFFFF;
+ border-top:1px solid #FFFFFF;
+}*/
+

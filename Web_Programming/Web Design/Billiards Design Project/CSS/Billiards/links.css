@@ -1,0 +1,61 @@
+
+/* li, ol, ul */
+
+/* Sites */
+li.sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+li.my-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+li.internal-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+li.center-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+
+/* Top Center */
+li.top-center{
+ margin-top:5px;
+ margin-right:8px;
+}
+
+/* Center */
+li.center{
+ margin-top:8px;
+ margin-right:8px;
+}
+
+/* Listing Description */
+ul, ol.description{
+ margin-left:10px;
+ margin-right:15px
+ 
+}
+/* Top Description */
+li.top-description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:3px;
+ list-style-type:none;
+}
+/* Description */
+li.description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:8px;
+ list-style-type:none;
+}

@@ -1,0 +1,151 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Guns Design Code! */
+
+/* div Guns */
+div.guns{
+ text-align:center;
+ margin-bottom:20px;
+}
+
+/* h2 Guns */
+h2.guns{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+}
+
+/* h3 Guns */
+h3.guns{
+ color:black;
+ text-decoration:underline;
+ text-align:center;
+ margin-bottom:20px;
+
+}
+
+/* Image Guns */
+img.guns{
+ border:0;
+ padding:10px;
+}
+
+/* Guns Tables */
+
+/* Assault */
+table.assault{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+
+/* Sub-Machine */
+table.sub-machine{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+
+/* Light Machine */
+table.light-machine{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-bottom:20px;
+ margin-left: 10%;
+ margin-right: 10%;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+
+/* Sniper Rifle */
+table.sniper-rifles{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+
+/* Riot Shield */
+table.riot-shield{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 30%;
+ margin-right: 30%;
+ margin-bottom:20px;
+ width:40%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+
+/* Machine Pistol */
+table.machine-pistol{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+
+/* Shotgun */
+table.shotgun{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+
+/* Handguns */
+table.handgun{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+
+/* Launchers */
+table.launchers{
+ background-color:black; 
+ vertical-align:top;
+ text-align:center;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom:20px;
+ width:80%;
+ border:2px solid white;
+ border-spacing:0px;
+}
+

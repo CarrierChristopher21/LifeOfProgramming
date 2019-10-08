@@ -1,0 +1,41 @@
+﻿/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Design Code! */
+
+
+	/* div */
+
+/* Div */
+div{
+ margin-bottom:20px;
+}	
+ /* footer */
+ 
+ /* CopyRight */
+div.mw2-copyright{
+ margin-bottom:20px;
+ margin-top:20px;
+ color:white;
+ text-align:center;
+ font-size:small;
+ font-style:italic;
+ font-family: Arial, Helvetica, Sans-Serif;
+}
+
+ /* Footer */
+div.mw2-footer{
+ font-size:small;
+ font-family: Arial, Helvetica, Sans-Serif;
+ text-align:center;
+ color:white;
+ font-style:italic;
+ margin-bottom:20px;
+ 
+} 
+
+
+
+
+
+
+
+

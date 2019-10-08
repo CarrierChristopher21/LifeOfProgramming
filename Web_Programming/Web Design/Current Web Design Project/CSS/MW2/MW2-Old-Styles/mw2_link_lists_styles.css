@@ -1,0 +1,167 @@
+/* This is a comment */
+/* Style Sheet for Modern Warefare 2 Design Code! */
+
+/* Links & Lists */
+
+/* Default Link Code */
+a:link {color:white;}
+a:visited  {color:#339900;}
+a:active   {color:#FF3300;}
+a:hover {color:red;}
+
+/* Center */
+a.center:link {color:white;}
+a.center:visited{color:Magenta;}
+a.center:active   {color:#FF3300;}
+a.center:hover {color:red;}
+
+/* Comment Box */
+a.comment-box:link {color:white;}
+a.comment-box:visited{color:Magenta;}
+a.comment-box:active   {color:#FF3300;}
+a.comment-box:hover {color:red;}
+
+	/* ul,ol,li */
+	
+ /* li Center */
+li.mw2-center{
+ margin-top:8px;
+ margin-right:8px;
+}
+	
+ /* li center sites */
+li.mw2-center-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+
+ /* Description */
+li.mw2-description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:8px;
+ list-style-type:none;
+}
+
+ /* li external sites */
+li.mw2-external-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ text-align:left;
+ line-height:20px;
+ 
+}
+
+ /* li internal sites */
+li.mw2-internal-sites{
+ margin-top:8px;
+ margin-left:20px;
+ margin-right:8px;
+ text-align:left;
+ line-height:20px;
+
+ }
+
+ /* li my sites */
+li.mw2-my-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+
+ /* li name external sites */
+li.mw2-name-external-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+
+ /* li Sites */
+li.mw2-sites{
+ margin-top:5px;
+ margin-left:20px;
+ margin-right:8px;
+ 
+}
+ 
+ /* li Top Center */
+li.mw2-top-center{
+ margin-top:5px;
+ margin-right:8px;
+}
+
+
+ /* Top Description */
+li.mw2-top-description{
+ margin-left:5px;
+ margin-right:10px;
+ margin-top:3px;
+ list-style-type:none;
+}
+
+
+ /* Listing Description */
+ul, ol.mw2-description{
+ margin-left:10px;
+ margin-right:15px
+ 
+}
+
+/* hr */
+
+/* Main Seperation Code */
+hr.mw2-seperation{
+ width: 50%;
+ color:white;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom:20px;
+}
+
+/* Listing Seperation */
+hr.mw2-li-seperation{
+ width:70%;
+ color:white;
+ text-align:left;
+}
+
+ /* div sites */
+
+/* Navigation Id */
+#mw2-navigation ul {
+ margin-left: 20px;   /* removes indent IE and Opera */
+ padding: 0;   /* removes indent Mozilla and NN7 */
+ list-style-type: none;   /* turns off display of bullet */
+ 
+ } 
+
+ /* div external sites */
+div.mw2-external-sites{
+ text-align:center;
+ text-decoration:underline;
+}
+
+ /* Navigation center */
+div.mw2-navigation-center ul{
+ margin-left:40px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+
+/* navigation description */
+div.mw2-navigation-description ul{
+ margin-left:25px;
+ list-style-type: none;
+ padding:0;
+ 
+}
+
+
+
+

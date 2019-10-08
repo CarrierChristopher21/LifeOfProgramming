@@ -1,0 +1,162 @@
+
+
+mysql> SELECT Country, Primary_Language, FORMAT(Population, 0), MAX(Population)
+AS Population
+    -> FROM demographic_stats
+    -> ;
++------------+------------------+-----------------------+------------+
+| Country    | Primary_Language | FORMAT(Population, 0) | Population |
++------------+------------------+-----------------------+------------+
+| Luxembourg | French           | 537,039               |   65950000 |
++------------+------------------+-----------------------+------------+
+1 row in set (0.00 sec)
+
+
+mysql> SELECT Country, Primary_Language, Population
+    -> FROM demographic_stats
+    -> WHERE Population = (SELECT MAX(Population) FROM demographic_stats);
++---------+------------------+------------+
+| Country | Primary_Language | Population |
++---------+------------------+------------+
+| France  | French           |   65950000 |
++---------+------------------+------------+
+1 row in set (0.00 sec)
+
+
+
+
+mysql> SELECT Country, Primary_Language, Population
+    -> FROM demographic_stats
+    -> WHERE Population = (SELECT MAX(Population) FROM demographic_stats);
++---------+------------------+------------+
+| Country | Primary_Language | Population |
++---------+------------------+------------+
+| France  | French           |   65950000 |
++---------+------------------+------------+
+1 row in set (0.00 sec)
+
+mysql> ?;
+
+For information about MySQL products and services, visit:
+   http://www.mysql.com/
+For developer information, including the MySQL Reference Manual, visit:
+   http://dev.mysql.com/
+To buy MySQL Enterprise support, training, or other products, visit:
+   https://shop.mysql.com/
+
+List of all MySQL commands:
+Note that all text commands must be first on line and end with ';'
+?         (\?) Synonym for `help'.
+clear     (\c) Clear the current input statement.
+connect   (\r) Reconnect to the server. Optional arguments are db and host.
+delimiter (\d) Set statement delimiter.
+ego       (\G) Send command to mysql server, display result vertically.
+exit      (\q) Exit mysql. Same as quit.
+go        (\g) Send command to mysql server.
+help      (\h) Display this help.
+notee     (\t) Don't write into outfile.
+print     (\p) Print current command.
+prompt    (\R) Change your mysql prompt.
+quit      (\q) Quit mysql.
+rehash    (\#) Rebuild completion hash.
+source    (\.) Execute an SQL script file. Takes a file name as an argument.
+status    (\s) Get status information from the server.
+tee       (\T) Set outfile [to_outfile]. Append everything into given outfile.
+use       (\u) Use another database. Takes database name as argument.
+charset   (\C) Switch to another charset. Might be needed for processing binlog
+with multi-byte charsets.
+warnings  (\W) Show warnings after every statement.
+nowarning (\w) Don't show warnings after every statement.
+
+For server side help, type 'help contents'
+
+mysql> SELECT Country, Primary_Language, Population
+    -> FROM demographic_stats
+    -> WHERE Population = (SELECT MAX(Population) FROM demographic_stats);
++---------+------------------+------------+
+| Country | Primary_Language | Population |
++---------+------------------+------------+
+| France  | French           |   65950000 |
++---------+------------------+------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT Country, Primary_Language, Population
+    -> FROM demographic_stats
+    -> WHERE Population = (SELECT MIN(Population) FROM demographic_stats);
++---------+------------------+------------+
+| Country | Primary_Language | Population |
++---------+------------------+------------+
+| Monaco  | French           |      36371 |
++---------+------------------+------------+
+1 row in set (0.01 sec)
+
+mysql> SELECT Country, Primary_Language, Population
+    -> FROM demographic_stats
+    -> WHERE Primary_Language='French';
++------------+------------------+------------+
+| Country    | Primary_Language | Population |
++------------+------------------+------------+
+| Luxembourg | French           |     537039 |
+| France     | French           |   65950000 |
+| Monaco     | French           |      36371 |
+| Cameroon   | French           |   20549221 |
+| Mali       | French           |   14517176 |
+| Haiti      | French           |    9719932 |
+| Niger      | French           |   17129076 |
++------------+------------------+------------+
+7 rows in set (0.01 sec)
+
+mysql> SELECT Country, Primary_Language, Population
+    -> FROM demographic_stats
+    -> WHERE Primary_Language='French'
+    -> ORDER BY Country AND Population;
++------------+------------------+------------+
+| Country    | Primary_Language | Population |
++------------+------------------+------------+
+| Luxembourg | French           |     537039 |
+| France     | French           |   65950000 |
+| Monaco     | French           |      36371 |
+| Cameroon   | French           |   20549221 |
+| Mali       | French           |   14517176 |
+| Haiti      | French           |    9719932 |
+| Niger      | French           |   17129076 |
++------------+------------------+------------+
+7 rows in set, 7 warnings (0.00 sec)
+
+mysql> SELECT Country, Primary_Language, Population
+    -> FROM demographic_stats
+    -> WHERE Primary_Language='French'
+    -> ORDER BY Country;
++------------+------------------+------------+
+| Country    | Primary_Language | Population |
++------------+------------------+------------+
+| Cameroon   | French           |   20549221 |
+| France     | French           |   65950000 |
+| Haiti      | French           |    9719932 |
+| Luxembourg | French           |     537039 |
+| Mali       | French           |   14517176 |
+| Monaco     | French           |      36371 |
+| Niger      | French           |   17129076 |
++------------+------------------+------------+
+7 rows in set (0.00 sec)
+
+mysql> SELECT Country, Primary_Language, Population
+    -> FROM demographic_stats
+    -> ORDER BY Country;
++-------------+------------------+------------+
+| Country     | Primary_Language | Population |
++-------------+------------------+------------+
+| Belgium     | Dutch            |   10839905 |
+| Cameroon    | French           |   20549221 |
+| Canada      | English          |   35158300 |
+| France      | French           |   65950000 |
+| Haiti       | French           |    9719932 |
+| Luxembourg  | French           |     537039 |
+| Madagascar  | Malagasy         |   22005222 |
+| Mali        | French           |   14517176 |
+| Monaco      | French           |      36371 |
+| Niger       | French           |   17129076 |
+| Switzerland | German           |    8014000 |
++-------------+------------------+------------+
+11 rows in set (0.00 sec)
+
