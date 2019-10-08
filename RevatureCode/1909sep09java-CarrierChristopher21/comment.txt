@@ -1,0 +1,24 @@
+Evaluation Services
+
+//		/*
+//
+////		System.out.println(number);
+//		for (int bi = 0; bi <= set.length; bi++) 
+//			sum += Math.max(set[bi], number);
+//			
+//		
+//        int count[] = new int[number + 1];
+//        
+//        mult = new int[number + 1];
+//		
+//        for(int ji = 0; ji < i; ji++) {
+//        	++count[set[ji]];
+//        }
+//        
+//        for(int jii =1; jii <= number; ++jii) {
+//        	for(int ai = jii; ai <= number; ai += jii) {
+//        		mult[jii] += count[ai];
+//        	}
+//        }
+//        System.out.println(mult);
+//        */
