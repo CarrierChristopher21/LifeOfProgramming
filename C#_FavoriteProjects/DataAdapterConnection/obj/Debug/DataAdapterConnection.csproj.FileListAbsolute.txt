@@ -1,3 +1,0 @@
-c:\users\chris\documents\visual studio 2013\Projects\DataAdapterConnection\bin\Debug\DataAdapterConnection.exe.config
-C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\DataAdapterConnection\bin\Debug\DataAdapterConnection.exe.config
-C:\Users\Chris\Desktop\Visual Studio Programming\Visual Studio 2013\Projects\DataAdapterConnection\obj\Debug\DataAdapterConnection.csprojResolveAssemblyReference.cache
