@@ -1,0 +1,7 @@
+﻿<h2>List By Product Ajax</h2>
+
+@foreach (var p in ViewBag.ProductList)
+{
+    @Html.Raw(p.Display());  <br />
+
+}

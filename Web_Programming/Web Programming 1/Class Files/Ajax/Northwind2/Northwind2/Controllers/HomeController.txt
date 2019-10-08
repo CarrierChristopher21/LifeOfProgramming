@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using Northwind2.Models;
+
+namespace Northwind2.Controllers
+{
+    public class HomeController : Controller
+    {
+        //
+        // GET: /Home/
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult ListByCategory()
+        {
+            List<Category> aCategoryList = new List<Category>();
+
+            aCategoryList.Add(new Category(1, "Beverages", "Soft drinks, coffees, teas, beers, and ales"));
+            aCategoryList.Add(new Category(2, "Condiments", "Sweet and savory sauces, relishes, spreads, and seasonings"));
+            aCategoryList.Add(new Category(3, "Confections", "Desserts, candies, and sweet breads"));
+            aCategoryList.Add(new Category(4, "Dairy Products", "Cheeses"));
+            aCategoryList.Add(new Category(5, "Grains/Cereals", "Breads, crackers, pasta, and cereal"));
+            aCategoryList.Add(new Category(6, "Meat/Poultry", "Prepared meats"));
+            aCategoryList.Add(new Category(7, "Produce", "Dried fruit and bean curd"));
+            aCategoryList.Add(new Category(8, "Seafood", "Seaweed and fish"));
+
+            ViewBag.ListOfCategories = aCategoryList;
+
+            return View();
+        }
+
+        public ActionResult ListBySupplier()
+        {
+            List<Supplier> aSupplierList = new List<Supplier>();
+
+	// your code goes here -- if you can 
+
+            ViewBag.SupplierList = aSupplierList;
+
+            return View();
+        }
+
+        public ActionResult ListByProduct()
+        {
+
+            List<Product> aProductList = new List<Product>();
+
+
+           \\your code goes here 
+
+            ViewBag.ProductList = aProductList;
+
+            return View();
+        }
+	}
+}

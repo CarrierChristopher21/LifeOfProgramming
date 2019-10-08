@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "ListByCategory";
+}
+
+<h2>List By Category</h2>
+
+
+
+<table>
+    @foreach (var c in ViewBag.ListOfCategories)
+    {
+        <tr>
+            <td> @c.CategoryId   </td>
+            <td> @c.CategoryName </td>
+            <td> @c.Description  </td>
+        </tr>
+    }
+</table>
+
+
+<!-- 
+   // This is the old code
+    // don't leave old code in a view
+   // @foreach (var c in ViewBag.ListOfCategories)
+{
+    //@Html.Raw(c.Display()); <br />
+}
+-->

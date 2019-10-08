@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+
+<h2>Index</h2>
+<h2>This is our home page</h2>
+<h2>Web Designers make this look pretty</h2>
+
+<a href="ListByCategory">List by Category</a> <br />
+<a href="ListBySupplier">List by Supplier</a> <br />
+<a href="ListByProduct">List by Product</a> <br />
+
+<a data-ajax="true" data-ajax-method="GET" data-ajax-mode="replace" data-ajax-update="#results" href="ListByProductAjax">List by Product Ajax</a> <br />
+<a data-ajax="true" data-ajax-method="GET" data-ajax-mode="replace" data-ajax-update="#results" href="ListByProductAjaxExpensiveProducts">List by Product Ajax Expensive Products</a> <br />
+<a data-ajax="true" data-ajax-method="GET" data-ajax-mode="replace" data-ajax-update="#results" href="ListByProductAjaxCheapProducts">List by Product Ajax Cheap Products</a> <br />
+<br /><br /><br />
+
+<h2>Our Results From Ajax</h2>
+<div id="results"></div>

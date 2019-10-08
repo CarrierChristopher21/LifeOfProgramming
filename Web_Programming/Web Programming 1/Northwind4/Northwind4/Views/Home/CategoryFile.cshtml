@@ -1,0 +1,22 @@
+﻿@model Northwind4.Models.Category
+
+@{
+    ViewBag.Title = "Category File";
+}
+<head>
+	<link type="text/css" rel="stylesheet" href="~/Content/style.css" />
+	<title>Category</title>
+
+</head>
+
+<h2>Category File</h2>
+<!--	By Files All list -->
+
+
+<div id="category">
+
+	@foreach(var c in ViewBag.Categories)
+	{
+		@Html.Raw(c.ToString());
+	}
+</div>

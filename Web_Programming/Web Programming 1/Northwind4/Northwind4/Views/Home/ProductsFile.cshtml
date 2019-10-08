@@ -1,0 +1,21 @@
+﻿@model Northwind4.Models.Product
+
+@{
+    ViewBag.Title = "Products File";
+}
+
+
+	<head>
+		<title>Products File</title>
+
+	</head>
+
+	<!--	By Files All list -->
+	<h2>Products File</h2>
+	<div id="product">
+		@foreach(var p in ViewBag.Products)
+		{
+			@Html.Raw(p.ToString());<br />
+		}
+	</div>
+

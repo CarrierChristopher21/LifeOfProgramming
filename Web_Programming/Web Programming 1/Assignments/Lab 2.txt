@@ -1,0 +1,12 @@
+Create a function that will accept a single parameter, which should be a string, 
+and will return the reverse of the string: If it is passed “Hello,” it will return “olleH.”
+
+1. Start by creating a function named reverse and declare that it accepts a single parameter.
+
+2. Check that the argument passed in is a string: If it is not, then throw an error for the caller.
+
+3. Iterate through the string one character at a time using a for loop. 
+
+4. Create a function will accept an array of numbers, and return true if the sum of all the positive numbers is greater than the 
+	sum of the absolute value of all the negative numbers. Throw an error if not all of the items in the array are numbers.
+

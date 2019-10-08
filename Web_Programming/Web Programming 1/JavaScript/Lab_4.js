@@ -1,0 +1,344 @@
+
+/*
+	Lab 3 Javascript
+
+*/
+
+//	Products
+	var product1 = new Product(1, "Chai", "Exotic Liquids", "Beverages", "10 boxes x 20 bags", "18", "39", "0", "10", "0");
+	var product2 = new Product(2, "Chang", "Exotic Liquids", "Beverages", "24 - 12 oz bottles", "19", "17", "40", "25", "0");
+	var product3 = new Product(3, "Aniseed Syrup", "Exotic Liquids", "Condiments", "12 - 550 ml bottles", "10", "13", "70", "25", "0");
+	var product4 = new Product(4, "Chef Anton's Cajun Seasoning", "New Orleans Cajun Delights", "Condiments", "48 - 6 oz jars", "22", "53", "0", "0", "0");
+	var product5 = new Product(5, "Chef Anton's Gumbo Mix", "New Orleans Cajun Delights", "Condiments", "36 boxes", "21.35", "0", "0", "0", "-1");
+	var product6 = new Product(6, "Grandma's Boysenberry Spread", "Grandma Kelly's Homestead", "Condiments", "12 - 8 oz jars", "25", "120", "0", "25", "0");
+	var product7 = new Product(7, "Uncle Bob's Organic Dried Pears", "Grandma Kelly's Homestead", "Produce", "12 - 1 lb pkgs.", "30", "15", "0", "10", "0");
+	var product8 = new Product(8, "Northwoods Cranberry Sauce", "Grandma Kelly's Homestead", "Condiments", "12 - 12 oz jars", "40", "6", "0", "0", "0");
+	var product9 = new Product(9, "Mishi Kobe Niku", "Tokyo Traders", "Meat/Poultry", "18 - 500 g pkgs.", "97", "29", "0", "0", "-1");
+	var product10 = new Product(10, "Ikura", "Tokyo Traders", "Seafood", "12 - 200 ml jars", "31", "31", "0", "0", "0");
+	var product11 = new Product(11, "Queso Cabrales", "Cooperativa de Quesos 'Las Cabras'", "Dairy Products", "1 kg pkg.", "21", "22", "30", "30", "0");
+	var product12 = new Product(12, "Queso Manchego La Pastora", "Cooperativa de Quesos 'Las Cabras'", "Dairy Products", "10 - 500 g pkgs.", "38", "86", "0", "0", "0");
+	var product13 = new Product(13, "Konbu", "Mayumi's", "Seafood", "2 kg box", "6", "24", "0", "5", "0");
+	var product14 = new Product(14, "Tofu", "Mayumi's", "Produce", "40 - 100 g pkgs.", "23.25", "35", "0", "0", "0");
+	var product15 = new Product(15, "Genen Shouyu", "Mayumi's", "Condiments", "24 - 250 ml bottles", "15.5", "39", "0", "5", "0");
+	var product16 = new Product(16, "Pavlova", "Pavlova, Ltd.", "Confections", "32 - 500 g boxes", "17.45", "29", "0", "10", "0");
+	var product17 = new Product(17, "Alice Mutton", "Pavlova, Ltd.", "Meat/Poultry", "20 - 1 kg tins", "39", "0", "0", "0", "-1");
+	var product18 = new Product(18, "Carnarvon Tigers", "Pavlova, Ltd.", "Seafood", "16 kg pkg.", "62.5", "42", "0", "0", "0");
+	var product19 = new Product(19, "Teatime Chocolate Biscuits", "Specialty Biscuits, Ltd.", "Confections", "10 boxes x 12 pieces", "9.2", "25", "0", "5", "0");
+	var product20 = new Product(20, "Sir Rodney's Marmalade", "Specialty Biscuits, Ltd.", "Confections", "30 gift boxes", "81", "40", "0", "0", "0");
+	var product21 = new Product(21, "Sir Rodney's Scones", "Specialty Biscuits, Ltd.", "Confections", "24 pkgs. x 4 pieces", "10", "3", "40", "5", "0");
+	var product22 = new Product(22, "Gustaf's Knäckebröd", "PB Knäckebröd AB", "Grains/Cereals", "24 - 500 g pkgs.", "21", "104", "0", "25", "0");
+	var product23 = new Product(23, "Tunnbröd", "PB Knäckebröd AB", "Grains/Cereals", "12 - 250 g pkgs.", "9", "61", "0", "25", "0");
+	var product24 = new Product(24, "Guaraná Fantástica", "Refrescos Americanas LTDA", "Beverages", "12 - 355 ml cans", "4.5", "20", "0", "0", "-1");
+	var product25 = new Product(25, "NuNuCa Nuß-Nougat-Creme", "Heli Süßwaren GmbH & Co. KG", "Confections", "20 - 450 g glasses", "14", "76", "0", "30", "0");
+	var product26 = new Product(26, "Gumbär Gummibärchen", "Heli Süßwaren GmbH & Co. KG", "Confections", "100 - 250 g bags", "31.23", "15", "0", "0", "0");
+	var product27 = new Product(27, "Schoggi Schokolade", "Heli Süßwaren GmbH & Co. KG", "Confections", "100 - 100 g pieces", "43.9", "49", "0", "30", "0");
+	var product28 = new Product(28, "Rössle Sauerkraut", "Plutzer Lebensmittelgroßmärkte AG", "Produce", "25 - 825 g cans", "45.6", "26", "0", "0", "-1");
+	var product29 = new Product(29, "Thüringer Rostbratwurst", "Plutzer Lebensmittelgroßmärkte AG", "Meat/Poultry", "50 bags x 30 sausgs.", "123.79", "0", "0", "0", "-1");
+	var product30 = new Product(30, "Nord-Ost Matjeshering", "Nord-Ost-Fisch Handelsgesellschaft mbH", "Seafood", "10 - 200 g glasses", "25.89", "10", "0", "15", "0");
+	var product31 = new Product(31, "Gorgonzola Telino", "Formaggi Fortini s.r.l.", "Dairy Products", "12 - 100 g pkgs", "12.5", "0", "70", "20", "0");
+	var product32 = new Product(32, "Mascarpone Fabioli", "Formaggi Fortini s.r.l.", "Dairy Products", "24 - 200 g pkgs.", "32", "9", "40", "25", "0");
+	var product33 = new Product(33, "Geitost", "Norske Meierier", "Dairy Products", "500 g", "2.5", "112", "0", "20", "0");
+	var product34 = new Product(34, "Sasquatch Ale", "Bigfoot Breweries", "Beverages", "24 - 12 oz bottles", "14", "111", "0", "15", "0");
+	var product35 = new Product(35, "Steeleye Stout", "Bigfoot Breweries", "Beverages", "24 - 12 oz bottles", "18", "20", "0", "15", "0");
+	var product36 = new Product(36, "Inlagd Sill", "Svensk Sjöföda AB", "Seafood", "24 - 250 g  jars", "19", "112", "0", "20", "0");
+	var product37 = new Product(37, "Gravad lax", "Svensk Sjöföda AB", "Seafood", "12 - 500 g pkgs.", "26", "11", "50", "25", "0");
+	var product38 = new Product(38, "Côte de Blaye", "Aux joyeux ecclésiastiques", "Beverages", "12 - 75 cl bottles", "263.5", "17", "0", "15", "0");
+	var product39 = new Product(39, "Chartreuse verte", "Aux joyeux ecclésiastiques", "Beverages", "750 cc per bottle", "18", "69", "0", "5", "0");
+	var product40 = new Product(40, "Boston Crab Meat", "New England Seafood Cannery", "Seafood", "24 - 4 oz tins", "18.4", "123", "0", "30", "0");
+	var product41 = new Product(41, "Jack's New England Clam Chowder", "New England Seafood Cannery", "Seafood", "12 - 12 oz cans", "9.65", "85", "0", "10", "0");
+	var product42 = new Product(42, "Singaporean Hokkien Fried Mee", "Leka Trading", "Grains/Cereals", "32 - 1 kg pkgs.", "14", "26", "0", "0", "-1");
+	var product43 = new Product(43, "Ipoh Coffee", "Leka Trading", "Beverages", "16 - 500 g tins", "46", "17", "10", "25", "0");
+	var product44 = new Product(44, "Gula Malacca", "Leka Trading", "Condiments", "20 - 2 kg bags", "19.45", "27", "0", "15", "0");
+	var product45 = new Product(45, "Røgede sild", "Lyngbysild", "Seafood", "1k pkg.", "9.5", "5", "70", "15", "0");
+	var product46 = new Product(46, "Spegesild", "Lyngbysild", "Seafood", "4 - 450 g glasses", "12", "95", "0", "0", "0");
+	var product47 = new Product(47, "Zaanse koeken", "Zaanse Snoepfabriek", "Confections", "10 - 4 oz boxes", "9.5", "36", "0", "0", "0");
+	var product48 = new Product(48, "Chocolade", "Zaanse Snoepfabriek", "Confections", "10 pkgs.", "12.75", "15", "70", "25", "0");
+	var product49 = new Product(49, "Maxilaku", "Karkki Oy", "Confections", "24 - 50 g pkgs.", "20", "10", "60", "15", "0");
+	var product50 = new Product(50, "Valkoinen suklaa", "Karkki Oy", "Confections", "12 - 100 g bars", "16.25", "65", "0", "30", "0");
+	var product51 = new Product(51, "Manjimup Dried Apples", "G'day, Mate", "Produce", "50 - 300 g pkgs.", "53", "20", "0", "10", "0");
+	var product52 = new Product(52, "Filo Mix", "G'day, Mate", "Grains/Cereals", "16 - 2 kg boxes", "7", "38", "0", "25", "0");
+	var product53 = new Product(53, "Perth Pasties", "G'day, Mate", "Meat/Poultry", "48 pieces", "32.8", "0", "0", "0", "-1");
+	var product54 = new Product(54, "Tourtière", "Ma Maison", "Meat/Poultry", "16 pies", "7.45", "21", "0", "10", "0");
+	var product55 = new Product(55, "Pâté chinois", "Ma Maison", "Meat/Poultry", "24 boxes x 2 pies", "24", "115", "0", "20", "0");
+	var product56 = new Product(56, "Gnocchi di nonna Alice", "Pasta Buttini s.r.l.", "Grains/Cereals", "24 - 250 g pkgs.", "38", "21", "10", "30", "0");
+	var product57 = new Product(57, "Ravioli Angelo", "Pasta Buttini s.r.l.", "Grains/Cereals", "24 - 250 g pkgs.", "19.5", "36", "0", "20", "0");
+	var product58 = new Product(58, "Escargots de Bourgogne", "Escargots Nouveaux", "Seafood", "24 pieces", "13.25", "62", "0", "20", "0");
+	var product59 = new Product(59, "Raclette Courdavault", "Gai pâturage", "Dairy Products", "5 kg pkg.", "55", "79", "0", "0", "0");
+	var product60 = new Product(60, "Camembert Pierrot", "Gai pâturage", "Dairy Products", "15 - 300 g rounds", "34", "19", "0", "0", "0");
+	var product61 = new Product(61, "Sirop d'érable", "Forêts d'érables", "Condiments", "24 - 500 ml bottles", "28.5", "113", "0", "25", "0");
+	var product62 = new Product(62, "Tarte au sucre", "Forêts d'érables", "Confections", "48 pies", "49.3", "17", "0", "0", "0");
+	var product63 = new Product(63, "Vegie-spread", "Pavlova, Ltd.", "Condiments", "15 - 625 g jars", "43.9", "24", "0", "5", "0");
+	var product64 = new Product(64, "Wimmers gute Semmelknödel", "Plutzer Lebensmittelgroßmärkte AG", "Grains/Cereals", "20 bags x 4 pieces", "33.25", "22", "80", "30", "0");
+	var product65 = new Product(65, "Louisiana Fiery Hot Pepper Sauce", "New Orleans Cajun Delights", "Condiments", "32 - 8 oz bottles", "21.05", "76", "0", "0", "0");
+	var product66 = new Product(66, "Louisiana Hot Spiced Okra", "New Orleans Cajun Delights", "Condiments", "24 - 8 oz jars", "17", "4", "100", "20", "0");
+	var product67 = new Product(67, "Laughing Lumberjack Lager", "Bigfoot Breweries", "Beverages", "24 - 12 oz bottles", "14", "52", "0", "10", "0");
+	var product68 = new Product(68, "Scottish Longbreads", "Specialty Biscuits, Ltd.", "Confections", "10 boxes x 8 pieces", "12.5", "6", "10", "15", "0");
+	var product69 = new Product(69, "Gudbrandsdalsost", "Norske Meierier", "Dairy Products", "10 kg pkg.", "36", "26", "0", "15", "0");
+	var product70 = new Product(70, "Outback Lager", "Pavlova, Ltd.", "Beverages", "24 - 355 ml bottles", "15", "15", "10", "30", "0");
+	var product71 = new Product(71, "Fløtemysost", "Norske Meierier", "Dairy Products", "10 - 500 g pkgs.", "21.5", "26", "0", "0", "0");
+	var product72 = new Product(72, "Mozzarella di Giovanni", "Formaggi Fortini s.r.l.", "Dairy Products", "24 - 200 g pkgs.", "34.8", "14", "0", "0", "0");
+	var product73 = new Product(73, "Röd Kaviar", "Svensk Sjöföda AB", "Seafood", "24 - 150 g jars", "15", "101", "0", "5", "0");
+	var product74 = new Product(74, "Longlife Tofu", "Tokyo Traders", "Produce", "5 kg pkg.", "10", "4", "20", "5", "0");
+	var product75 = new Product(75, "Rhönbräu Klosterbier", "Plutzer Lebensmittelgroßmärkte AG", "Beverages", "24 - 0.5 l bottles", "7.75", "125", "0", "25", "0");
+	var product76 = new Product(76, "Lakkalikööri", "Karkki Oy", "Beverages", "500 ml ", "18", "57", "0", "20", "0");
+	var product77 = new Product(77, "Original Frankfurter grüne Soße", "Plutzer Lebensmittelgroßmärkte AG", "Condiments", "12 boxes", "13", "32", "0", "15", "0");
+
+	var myArray = [product1, product2, product3, product4, product5, product6, product7, product8, product9, product10, product11, product12, product13, product14, product15, product16, product17, product18, product19, product20, product21, product22, product23, product24,product25, product26, product27, product28, product29, product30, product31, product32, product33, product34, product35, product36, product37, product38, product39, product40, product41, product42, product43, product44, product45, product46, product47, product48, product49, product50, product51, product52, product53, product54, product55, product56, product57, product58, product59, product60, product61, product62, product63, product64, product65, product66, product67, product68, product69, product70, product71, product72, product73, product74, product75, product76, product77];
+
+	var output;
+//				Product output
+//	Product
+function Product(aProductId, aProductName, aSupplierId, aCategoryId, aQuantityPerUnit, aUnitPrice, aUnitsInStock, aUnitsOnOrder, aReorderLevel, aDiscontinued)
+{
+	this.ProductId = aProductId;
+	this.ProductName = aProductName;
+	this.SupplierId = aSupplierId;
+	this.CategoryId = aCategoryId;
+	this.QuantityPerUnit = aQuantityPerUnit;
+	this.UnitPrice = aUnitPrice;
+	this.UnitsInStock = aUnitsInStock;
+	this.UnitsOnOrder = aUnitsOnOrder;
+	this.ReorderLevel = aReorderLevel;
+	this.Discontinued = aDiscontinued;
+}
+
+//	Products Prototype - Second Option Object
+Product.prototype.toRow = function()
+{
+	var result = "<tr><td>" + this.ProductId + "</td>";
+	result += "<td>" + this.ProductName + "</td>";
+	result += "<td>" + this.SupplierId + "</td>";
+	result += "<td>" + this.CategoryId + "</td>";
+	result += "<td>" + this.QuantityPerUnit + "</td>";
+	result += "<td>" + this.UnitPrice + "</td>";
+	result += "<td>" + this.UnitsInStock + "</td>";
+	result += "<td>" + this.UnitsOnOrder + "</td>";
+	result += "<td>" + this.ReorderLevel + "</td>";
+	result += "<td>" + this.Discontinued + "</td></tr>";
+	return result;
+}
+
+//	Products - Second Object	-	In Progress
+function Products (alist)
+{
+	this.myarray1 = alist;
+}
+
+//	Products Prototype - Second Object	-	in Progress
+Products.prototype.toTable = function()
+{
+	var i = 0;
+	var result = "";
+	var aString1 = "";
+	//var num = this.list.length;
+	while(i < this.myarray1.length)
+	{
+		result += this.myarray1[i].toRow();
+		i++;
+	}
+	//var aHeader = new Header();
+	
+	aString1 += "<table>" + Header() + result + "</table>";alert(aString1);
+	return aString1;
+}
+
+function Header()
+{
+	var head = ""
+	head += "<tr><th id='ProductID'>ProductId</th>";
+	head+= "<th id='Name'>Product Name</th>";
+	head += "<th>SupplierId</th>";
+	head += "<th>CategoryId</th>";
+	head+= "<th>QuantityPerUnit</th>";
+	head += "<th id='Price'>UnitPrice</th>";
+	head += "<th>UnitsInStock</th>";
+	head+= "<th>UnitsOnOrder</th>";
+	head += "<th>ReorderLevel</th>";
+	head += "<th>Discontinued</th></tr><br>";
+	
+	return head;	
+}
+
+//	Receive Input placement
+var result1 = document.getElementById("results1");
+var result2 = document.getElementById("results2");
+var result3 = document.getElementById("results3");
+var result4 = document.getElementById("results4");
+var result5 = document.getElementById("results5");
+var result6 = document.getElementById("results6");
+
+var sortedArray;
+var aProducts = new Products(myArray);
+
+//	ProductId Descending
+function Result1()
+{
+	sortedArray = myArray.sort(compareIdDesc);
+	result1.innerHTML = "ProductID Table Descending: <br><br>" + aProducts.toTable() + "<br>";
+}
+
+//	ProductId Ascending
+function Result2()
+{
+	sortedArray = myArray.sort(compareIdAsc);
+	result2.innerHTML = "ProductID Table Ascending: <br><br>" + aProducts.toTable() + "<br>";
+}
+
+//	ProductName Descending
+function Result3()
+{
+	sortedArray = myArray.sort(compareNameDesc);
+	result3.innerHTML = "ProductName Table Descending: <br><br>" + aProducts.toTable() + "<br>";
+}
+
+//	ProductName Ascending
+function Result4()
+{
+	sortedArray = myArray.sort(compareNameAsc);
+	result4.innerHTML = "ProductName Table Ascending: <br><br>" + aProducts.toTable() + "<br>";
+}
+
+//	Product's UnitPrice Descending
+function Result5()
+{
+	sortedArray = myArray.sort(comparePriceDesc);
+	result5.innerHTML = "Product's UnitPrice Table Descending: <br><br>" + aProducts.toTable() + "<br>";
+}
+
+//	Product's UnitPrice Ascending
+function Result6()
+{
+	sortedArray = myArray.sort(comparePriceAsc);
+	result6.innerHTML = "Product's UnitPrice Table Ascending: <br><br>" + aProducts.toTable() + "<br>";
+}
+
+//	Calling ProductID Table Descending
+Result1();
+
+//	Calling ProductID Table Ascending
+//Result2();
+
+//	Calling ProductName Table Descending
+//Result3();
+
+//	Calling ProductName Table Ascending
+//Result4()
+
+//	Calling UnitPrice Table Descending
+//Result5();
+
+//	Calling UnitPrice Table Ascending
+//Result6();
+
+//	Compare ProductId Descending			- Result1
+function compareIdDesc(a, b)
+{
+	var result = 0;	
+	if(a.ProductId < b.ProductId)
+	{
+		result = 1;		// positive goes 77-1, negative goes 1-77
+	}
+	else if(a.ProductId > b.ProductId)
+	{
+		result = -1;	// positive goes 1-77, negative goes 77-1
+	}
+	else
+	{
+		result = 0;
+	}
+	
+	return result;
+}
+
+//	Compare ProductId Ascending 			- Result2
+function compareIdAsc(a, b)
+{
+	var result = 0;	
+	if(a.ProductId < b.ProductId)
+	{
+		result = -1;	// positive goes 77-1, negative goes 1-77
+	}
+	else if(a.ProductId > b.ProductId)
+	{
+		result = 1;		// positive goes 1-77, negative goes 77-1
+	}
+	else
+	{
+		result = 0;
+	}
+	
+	return result;
+}
+
+//	Compare ProductName Descending			- Result3
+function compareNameDesc(a, b)
+{
+	var result = 0;
+	
+	if(a.ProductName < b.ProductName)
+	{
+		result = 1;		// positive goes 77-1, negative goes 1-77
+	}
+	else if(a.ProductName > b.ProductName)
+	{
+		result = -1;	// positive goes 1-77, negative goes 77-1
+	}
+	else
+	{
+		result = 0;
+	}
+	
+	return result;
+}
+
+//	Compare ProductName Ascending			- Result4
+function compareNameAsc(a, b)
+{
+	var result = 0;	
+	if(a.ProductName < b.ProductName)
+	{
+		result = -1;	// positive goes 77-1, negative goes 1-77
+	}
+	else if(a.ProductName > b.ProductName)
+	{
+		result = 1;		// positive goes 1-77, negative goes 77-1
+	}
+	else
+	{
+		result = 0;
+	}
+	
+	return result;
+}
+
+//	Compare Product's UnitPrice Descending	- Result5
+function comparePriceDesc(a, b)
+{
+	return b.UnitPrice - a.UnitPrice;
+}
+
+//	Compare Product's UnitPrice Ascending	- Result6
+function comparePriceAsc(a, b)
+{
+	return a.UnitPrice - b.UnitPrice;
+}
+
+
+//	Output2
+function Output1()
+{
+	output = "ProductId: " + sortedArray[0].ProductId + "<br>ProductName: " + sortedArray[0].ProductName + "<br>SupplierId: " + sortedArray[0].SupplierId + "<br>CategtoryId: " + sortedArray[0].CategoryId + "<br>QuantityPerUnit: " + sortedArray[0].QuantityPerUnit + "<br>UnitPrice: " + sortedArray[1].UnitPrice + "<br>UnitsInStock: " + sortedArray[0].UnitsInStock + "<br>UnitsOnOrder: " + sortedArray[0].UnitsOnOrder + "<br>ReorderLevel: " + sortedArray[0].ReorderLevel + "<br>Discontinued: " + sortedArray[0].Discontinued + "<br><br>";
+	
+	for(var i =1; (i < 77); i++)
+	{
+		output += "ProductId: " + sortedArray[i].ProductId + "<br>ProductName: " + sortedArray[i].ProductName + "<br>SupplierId: " + sortedArray[i].SupplierId + "<br>CategtoryId: " + sortedArray[i].CategoryId + "<br>QuantityPerUnit: " + sortedArray[i].QuantityPerUnit + "<br>UnitPrice: " + sortedArray[i].UnitPrice + "<br>UnitsInStock: " + sortedArray[i].UnitsInStock + "<br>UnitsOnOrder: " + sortedArray[i].UnitsOnOrder + "<br>ReorderLevel: " + sortedArray[i].ReorderLevel + "<br>Discontinued: " + sortedArray[i].Discontinued + "<br><br>";
+		
+	}
+	return output;
+}
+
+
+
+
+
+

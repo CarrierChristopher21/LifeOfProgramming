@@ -1,0 +1,19 @@
+/*
+	Name: Chris Carrier
+	Date: 11/11/15
+	Class: MW 11-1 PM
+
+
+*/
+
+tr:nth-child(even)
+{
+	background-color:white;
+	
+}
+
+tr:nth-child(odd)
+{
+	background-color: #90EE90;
+	
+}

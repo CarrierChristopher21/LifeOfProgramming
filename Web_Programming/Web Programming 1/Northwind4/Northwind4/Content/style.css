@@ -1,0 +1,35 @@
+﻿/*
+	type: StyleSheet for html pages
+	File: Style.css
+*/
+
+
+ul {
+ list-style-type:none;
+
+}
+
+body{	
+	background-color:blueviolet;
+	
+}
+
+#category{
+	background-color:violet;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#product{
+	background-color:violet;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+a:link{
+	color:black;
+}
+
+a:visited {
+	color:red;
+}

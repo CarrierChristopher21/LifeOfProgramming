@@ -1,0 +1,25 @@
+/*
+	The Dom CSS
+*/
+
+.hot{
+ background-color: red;
+ color: #fff; 
+ font-size: 2em;
+}
+
+.cool{
+ background-color: #0099ff;
+ color: #fff;
+ font-size:2em;
+}
+
+#page{
+ width:200px;	
+ 	
+}
+
+.medium{
+	background-color:blue;
+	color:white;
+}

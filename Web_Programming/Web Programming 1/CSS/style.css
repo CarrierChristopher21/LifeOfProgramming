@@ -1,0 +1,29 @@
+/*
+	Style CSS
+	
+*/
+
+#play
+{
+	width: 500px;
+	border:1px solid black;
+	
+}
+
+h1
+{
+	background:#ddd;
+	
+}
+
+h2
+{
+	background:#999;
+	
+}
+
+h3
+{
+	background:#ff0000;
+	
+}
