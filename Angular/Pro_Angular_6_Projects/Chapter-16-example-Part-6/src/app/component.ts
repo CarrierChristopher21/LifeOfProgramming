@@ -40,7 +40,8 @@ export class ProductComponent {
 			form.reset();
 			this.formSubmitted = false;
 		}
-	}	
+	}
+	showTable: boolean = true;
 }
 
 /*
